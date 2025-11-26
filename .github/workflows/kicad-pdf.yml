@@ -31,6 +31,7 @@ jobs:
           schematic_file_name: ./PrincetonReverbUpdate.kicad_sch
           schematic_output_pdf: true
           schematic_output_pdf_file_name: PrincetonReverbUpdate.pdf
+	  schematic_plot_parameters: "--monochrome --page-size A4"
 
       - name: Move PDF into docs folder
         run: |
