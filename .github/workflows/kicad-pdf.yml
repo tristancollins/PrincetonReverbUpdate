@@ -1,0 +1,61 @@
+name: Generate schematic PDF
+
+on:
+  push:
+    branches:
+      - main
+    # Optional: don't re-run when CI itself pushes with [skip ci]
+    # (head_commit.message is only set for push events)
+    # This is a *job-level* guard:
+    # if: "!contains(github.event.head_commit.message, '[skip ci]')"
+  pull_request:
+
+jobs:
+  generate-schematic-pdf:
+    runs-on: ubuntu-latest
+
+    # Skip if the commit message contains [skip ci]
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+
+    permissions:
+      contents: write   # needed so we can push the PDF back
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run KiCad actions (KiCad 9)
+        uses: actions-for-kicad/kicad-actions@v1-k9.0
+        with:
+          # CHANGE THIS to your actual schematic file:
+          schematic_file_name: ./PrincetonReverbUpdate.kicad_sch
+          schematic_output_pdf: true
+          schematic_output_pdf_file_name: PrincetonReverbUpdate.pdf
+
+      - name: Move PDF into docs folder
+        run: |
+          mkdir -p schematic
+          mv PrincetonReverbUpdate.pdf schematic/PrincetonReverbUpdate.pdf
+
+      - name: Commit and push updated PDF
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Configure a generic CI identity
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage the PDF (only if it changed / exists)
+          git add schematic/PrincetonReverbUpdate.pdf
+
+          # If nothing changed, exit gracefully
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          # Commit with [skip ci] so this commit doesn't re-trigger the job
+          git commit -m "Update schematic PDF [skip ci]"
+
+          # Push back to the same branch
+          git push origin HEAD:${{ github.ref_name }}
