@@ -13,19 +13,19 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0.762 3.048 0)
+			(at 0.508 3.048 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "C_compact"
-			(at 0.762 1.778 0)
+			(at 0.508 1.778 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -156,7 +156,7 @@
 			(at 0 2.032 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -164,7 +164,7 @@
 			(at 0 -2.032 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -318,10 +318,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "RV"
-			(at -3.048 0 90)
+			(at -3.302 0 90)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -329,7 +329,7 @@
 			(at -2.032 0 90)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -487,7 +487,7 @@
 			(at 1.778 -2.54 90)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -496,7 +496,7 @@
 			(at -1.778 -1.016 90)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -625,7 +625,7 @@
 			(at 1.27 0.762 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -634,7 +634,7 @@
 			(at 1.27 -0.762 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
