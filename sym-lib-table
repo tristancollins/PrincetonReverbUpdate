@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Valves_GZ34")(type "KiCad")(uri "${KIPRJMOD}/libraries/Valves_GZ34.kicad_sym")(options "")(descr ""))
+  (lib (name "Transformer_1P_3S")(type "KiCad")(uri "${KIPRJMOD}/libraries/Transformer_1P_3S.kicad_sym")(options "")(descr ""))
+  (lib (name "Transformer_1P_1S_small")(type "KiCad")(uri "${KIPRJMOD}/libraries/Transformer_1P_1S_small.kicad_sym")(options "")(descr ""))
+  (lib (name "CanCap")(type "KiCad")(uri "${KIPRJMOD}/libraries/CanCap.kicad_sym")(options "")(descr ""))
+  (lib (name "DevicesTC")(type "KiCad")(uri "${KIPRJMOD}/libraries/DevicesTC.kicad_sym")(options "")(descr ""))
+)
