@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "c97fe961-eaac-4315-a6d8-42e040059404")
 	(paper "A4")
+	(title_block
+		(title "Modulus Princetown Reverb")
+	)
 	(lib_symbols
 		(symbol "CanCap:JJ_CanCap"
 			(pin_names
@@ -5747,6 +5750,18 @@
 		)
 		(uuid "1953b3a5-8705-4a07-976c-ececc7ba7822")
 	)
+	(text "In reality the mains is hard-wired.\n• Strain relief on chassis\n• L: Brown, N: Blue, PE: Green/Yellow (per IEC)\n• Ensure PE wire is longer than L and N"
+		(exclude_from_sim no)
+		(at 185.42 162.56 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "2978bd45-63e3-4b47-ad0c-5ff4a4bf639f")
+	)
 	(text "Grounding is a mix of bus and chassis,\nwith numerous interconnections"
 		(exclude_from_sim no)
 		(at 152.908 173.99 0)
@@ -5800,6 +5815,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06acf673-17bc-469c-96b4-12090db4aacb")
+	)
+	(junction
+		(at 195.58 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17329c90-a539-40d2-a07a-2d29046aef94")
 	)
 	(junction
 		(at 48.26 130.81)
@@ -5904,12 +5925,6 @@
 		(uuid "6244f261-c415-459b-ba70-40ad97234f50")
 	)
 	(junction
-		(at 201.93 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65374f06-2c36-4f74-b12c-41cde92ff3ba")
-	)
-	(junction
 		(at 177.8 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5968,6 +5983,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b91936e-af52-41cd-ac5a-f479121557ba")
+	)
+	(junction
+		(at 195.58 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c09355f-bfce-4f6a-94bd-ce92c30c3e25")
 	)
 	(junction
 		(at 259.08 143.51)
@@ -6160,12 +6181,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3afd115-36b5-4e85-8639-2de313a9847e")
-	)
-	(junction
-		(at 201.93 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5af294a-324b-47e7-9ef6-19d5af4de888")
 	)
 	(junction
 		(at 173.99 31.75)
@@ -6593,7 +6608,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 53.34) (xy 187.96 53.34)
+			(xy 171.45 53.34) (xy 181.61 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6823,7 +6838,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 39.37) (xy 201.93 45.72)
+			(xy 195.58 39.37) (xy 195.58 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7043,23 +7058,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 31.75) (xy 201.93 31.75)
+			(xy 189.23 31.75) (xy 195.58 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "595b63ea-284e-4774-849e-a90fb51324ce")
-	)
-	(wire
-		(pts
-			(xy 201.93 53.34) (xy 205.74 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c4ad78-1d73-4f72-a185-aeeaaff2bb97")
 	)
 	(wire
 		(pts
@@ -7443,7 +7448,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 53.34) (xy 201.93 53.34)
+			(xy 189.23 53.34) (xy 195.58 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7640,16 +7645,6 @@
 			(type default)
 		)
 		(uuid "965e4544-9bac-474a-891c-c7886e8046d6")
-	)
-	(wire
-		(pts
-			(xy 201.93 31.75) (xy 205.74 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "987c8beb-cdfb-4660-88aa-6c16c5a0648b")
 	)
 	(wire
 		(pts
@@ -7913,7 +7908,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 31.75) (xy 187.96 31.75)
+			(xy 173.99 31.75) (xy 181.61 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8333,6 +8328,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 31.75) (xy 205.74 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1853e68-1e93-4155-8aad-9e33a3c03193")
+	)
+	(wire
+		(pts
 			(xy 276.86 135.89) (xy 276.86 149.86)
 		)
 		(stroke
@@ -8470,6 +8475,16 @@
 			(type default)
 		)
 		(uuid "e9a140ed-4368-46d6-aa1a-7f92fc0fd01a")
+	)
+	(wire
+		(pts
+			(xy 195.58 53.34) (xy 205.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f77601-3cf5-44b2-8380-16c8622fd487")
 	)
 	(wire
 		(pts
@@ -8907,7 +8922,7 @@
 	)
 	(global_label "Bias"
 		(shape input)
-		(at 201.93 41.91 180)
+		(at 195.58 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8917,7 +8932,7 @@
 		)
 		(uuid "78087a9c-4316-4ae6-82ef-0e3645de2bca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.8929 41.91 0)
+			(at 188.5429 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10308,17 +10323,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 162.56 148.59 0)
+		(lib_id "power:GND")
+		(at 83.82 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c8df9dd-cb6b-4ad7-a113-9ffc98eb0c7f")
-		(property "Reference" "#PWR015"
-			(at 162.56 154.94 0)
+		(uuid "1a3755b8-82a0-4a5f-80f6-c41ca168aac0")
+		(property "Reference" "#PWR013"
+			(at 83.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10326,16 +10340,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Earth"
-			(at 162.56 153.67 0)
+		(property "Value" "GND"
+			(at 83.8201 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 148.59 0)
+			(at 83.82 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10343,8 +10358,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 162.56 148.59 0)
+		(property "Datasheet" ""
+			(at 83.82 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10352,8 +10367,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 162.56 148.59 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,12 +10377,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "90bcdb0e-9c6a-46dc-beb6-95dd97528eed")
+			(uuid "cb4a1d90-34f8-4760-9ea7-bf42e231295a")
 		)
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12072,6 +12087,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 135.89 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "495e569f-1910-4c7b-94d5-28ea9b6efa57")
+		(property "Reference" "#PWR015"
+			(at 135.89 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12ae12d9-a7a6-49f4-8ae6-e357fa1a9f13")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Valve:ECC83")
 		(at 22.86 172.72 0)
 		(unit 3)
@@ -13003,138 +13084,6 @@
 			(project ""
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 83.82 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b39eee7-c6ba-4841-8283-1a58dfb4cdaf")
-		(property "Reference" "#PWR012"
-			(at 83.82 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 83.82 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 83.82 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1da5730b-606a-49d4-bda5-b8dd039faffd")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 71.12 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cc42d53-6b2f-4df7-82fc-7ac8fcf372c0")
-		(property "Reference" "#PWR013"
-			(at 71.12 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 71.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2978461-d678-42b1-9ca3-af2d95a88ae2")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15301,7 +15250,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:R_compact")
-		(at 201.93 49.53 0)
+		(at 195.58 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15310,7 +15259,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d4d7256-e064-460b-9c90-c4ba09273e2f")
 		(property "Reference" "R34"
-			(at 204.47 48.2599 0)
+			(at 198.12 48.2599 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15319,7 +15268,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 204.47 50.7999 0)
+			(at 198.12 50.7999 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15328,7 +15277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.152 49.53 90)
+			(at 193.802 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15337,7 +15286,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 49.53 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15346,7 +15295,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 201.93 49.53 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16267,72 +16216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 135.89 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b40a1873-239b-405d-80c6-b2507210d54f")
-		(property "Reference" "#PWR16"
-			(at 135.89 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 135.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 135.89 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e56ab1e-1211-48df-bf29-796389684e25")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "#PWR16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 248.92 148.59 90)
 		(unit 1)
@@ -17198,7 +17081,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:C_compact")
-		(at 191.77 53.34 270)
+		(at 185.42 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17207,7 +17090,7 @@
 		(fields_autoplaced yes)
 		(uuid "c905b56d-f1e0-4caa-ab4d-48b172537532")
 		(property "Reference" "C20"
-			(at 191.77 45.72 90)
+			(at 185.42 45.72 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -17215,7 +17098,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 191.77 48.26 90)
+			(at 185.42 48.26 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -17223,7 +17106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 54.3052 0)
+			(at 181.61 54.3052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17232,7 +17115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 53.34 0)
+			(at 185.42 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17241,7 +17124,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 191.77 53.34 0)
+			(at 185.42 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17488,7 +17371,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:C_compact")
-		(at 191.77 31.75 270)
+		(at 185.42 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17497,7 +17380,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd8b43e8-deda-432a-801c-415a397c8d2a")
 		(property "Reference" "C21"
-			(at 191.77 24.13 90)
+			(at 185.42 24.13 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -17505,7 +17388,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 191.77 26.67 90)
+			(at 185.42 26.67 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -17513,7 +17396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 32.7152 0)
+			(at 181.61 32.7152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17522,7 +17405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 31.75 0)
+			(at 185.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17531,7 +17414,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 191.77 31.75 0)
+			(at 185.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18335,6 +18218,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 162.56 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e114d6ec-99b4-4850-bc6f-9a438c21d0b4")
+		(property "Reference" "#PWR016"
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "348eb914-1f07-4dc6-9929-d1ec8d7aa88f")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DevicesTC:C_compact")
 		(at 200.66 125.73 0)
 		(unit 1)
@@ -19092,6 +19041,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 71.12 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9eba4cb-55d1-4566-9e32-0d914accc467")
+		(property "Reference" "#PWR012"
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.1199 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d006c99f-6521-4fda-8a99-273455ce44b5")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:HT")
 		(at 119.38 143.51 0)
 		(unit 1)
@@ -19159,7 +19174,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:R_compact")
-		(at 201.93 35.56 0)
+		(at 195.58 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19168,7 +19183,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc68328f-591d-4031-a3d2-2a12e25d98c1")
 		(property "Reference" "R33"
-			(at 204.47 34.2899 0)
+			(at 198.12 34.2899 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -19177,7 +19192,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 204.47 36.8299 0)
+			(at 198.12 36.8299 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -19186,7 +19201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.152 35.56 90)
+			(at 193.802 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19195,7 +19210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 35.56 0)
+			(at 195.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19204,7 +19219,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 201.93 35.56 0)
+			(at 195.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
