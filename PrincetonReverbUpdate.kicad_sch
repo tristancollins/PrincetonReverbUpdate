@@ -5740,6 +5740,28 @@
 		)
 		(uuid 00eae185-f732-48bd-b873-f92780ebc867)
 	)
+	(text "Blue"
+		(exclude_from_sim no)
+		(at 235.458 35.814 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "07a379b5-4954-4d5f-82aa-8c745e205220")
+	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 246.634 152.908 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "188472d8-fae8-41fc-a3c8-cab3ab019fe1")
+	)
 	(text "1"
 		(exclude_from_sim no)
 		(at 21.59 58.674 0)
@@ -5772,6 +5794,105 @@
 		)
 		(uuid "2f24c87d-3907-4335-8092-9774f05b0b63")
 	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 248.666 35.814 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "386dbf12-062c-498a-a10e-b123f88043f1")
+	)
+	(text "Blue"
+		(exclude_from_sim no)
+		(at 229.108 155.194 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "3e36a67c-3976-4fdc-879c-c65b3df6eb9c")
+	)
+	(text "Yellow"
+		(exclude_from_sim no)
+		(at 246.888 135.382 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "3e8554c9-ba04-42cf-993b-d10c46e0e9ea")
+	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 249.682 160.782 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "3e90b015-6af3-4cd0-ba63-d5915b20806a")
+	)
+	(text "Yellow"
+		(exclude_from_sim no)
+		(at 247.142 140.208 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "50963c45-03f0-4b79-b583-d3f98958a5e2")
+	)
+	(text "Brown"
+		(exclude_from_sim no)
+		(at 228.6 141.224 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "52b28e3c-2f25-48c4-8198-9d4d50cca06f")
+	)
+	(text "6.6k to 8ohm"
+		(exclude_from_sim no)
+		(at 239.268 53.34 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "6a1b1681-72e4-4dc7-9c9a-6b7f75a9e23d")
+	)
+	(text "Black"
+		(exclude_from_sim no)
+		(at 249.174 45.974 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "7782ed56-8868-4b86-991f-61e937a0a630")
+	)
+	(text "355 - 0 - 355 @ 120mA\n6.3V @ 2A\n5V @ 2A"
+		(exclude_from_sim no)
+		(at 241.554 165.862 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "7a44ca8b-5766-4c7f-9490-edca46328a19")
+	)
 	(text "Changes Needed:\n• \n\nChecks:\n• Grounding / Chassis symbols & connections"
 		(exclude_from_sim no)
 		(at 194.818 176.53 0)
@@ -5782,6 +5903,17 @@
 			(justify left)
 		)
 		(uuid "818b4b09-4012-410f-9a79-68e44cd23295")
+	)
+	(text "240V"
+		(exclude_from_sim no)
+		(at 231.14 160.274 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "8bf9b976-a4e8-457e-9047-de16da092ad4")
 	)
 	(text "2"
 		(exclude_from_sim no)
@@ -5803,6 +5935,72 @@
 			(justify left)
 		)
 		(uuid "a7ed313e-99dc-444e-836e-52f982937a2a")
+	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 249.174 155.702 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "b352aaab-f447-433e-81bd-b55b82375588")
+	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 246.888 144.78 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "ba8252be-2496-490c-b678-117ce81412e9")
+	)
+	(text "Gr/Yel"
+		(exclude_from_sim no)
+		(at 246.888 157.988 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "be4b04fc-3fb0-4076-8ef5-ee2c0732676f")
+	)
+	(text "Brown"
+		(exclude_from_sim no)
+		(at 235.712 49.276 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "c1dce5ac-3dd8-4adb-afe8-2aff2952b7d8")
+	)
+	(text "Black"
+		(exclude_from_sim no)
+		(at 245.618 149.86 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "d05a252f-babd-449d-a455-01f5e1dc797b")
+	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 235.712 41.148 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "daef01e2-a2ba-422c-bf61-8930c7b74704")
 	)
 	(junction
 		(at 96.52 53.34)
