@@ -7,7 +7,7 @@
 	(title_block
 		(title "Modulus Princetown Reverb")
 		(date "2025-12-05")
-		(comment 1 "Original schematic & kit as supplied")
+		(comment 1 "Modified schematic")
 	)
 	(lib_symbols
 		(symbol "CanCap:JJ_CanCap"
@@ -6427,12 +6427,24 @@
 		(uuid "fc56db2b-1faf-4deb-93cf-fdccadd64a7b")
 	)
 	(no_connect
+		(at 266.7 30.48)
+		(uuid "3004b371-4321-4341-85e2-76f510d4a549")
+	)
+	(no_connect
+		(at 27.94 40.64)
+		(uuid "593073bc-6000-477c-b4df-59cf264d7945")
+	)
+	(no_connect
 		(at 261.62 25.4)
 		(uuid "77e36199-5afe-4068-8855-fbaccee65d35")
 	)
 	(no_connect
 		(at 261.62 48.26)
 		(uuid "7ecd0475-6183-4222-ad8e-253b504624e7")
+	)
+	(no_connect
+		(at 266.7 53.34)
+		(uuid "96a08921-8c05-4852-97dc-8f8ca8a95d36")
 	)
 	(wire
 		(pts
@@ -11161,72 +11173,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 266.7 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c6fb5ee-ffcd-461e-854b-c6252515403f")
-		(property "Reference" "#PWR30"
-			(at 266.7 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Chassis"
-			(at 266.573 57.0667 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 266.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3e8fe89-a38c-47f8-aeca-5b0410741ed2")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "#PWR30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DevicesTC:R_compact")
 		(at 123.19 31.75 90)
 		(unit 1)
@@ -12568,72 +12514,6 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 266.7 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "552c7707-8b7d-4724-905a-1f8a16a19d28")
-		(property "Reference" "#PWR31"
-			(at 266.7 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Chassis"
-			(at 266.573 34.2067 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 266.7 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f114fbef-16d3-4fb3-9fcc-ae833503914f")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "#PWR31")
 					(unit 1)
 				)
 			)
@@ -16536,72 +16416,6 @@
 			(project ""
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "#PWR5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 27.94 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b70488b2-4f30-43d2-b12b-cb178a8e3020")
-		(property "Reference" "#PWR32"
-			(at 27.94 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Chassis"
-			(at 27.813 44.3667 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 27.94 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26a69fc0-3dad-4084-b551-1266f11389e9")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "#PWR32")
 					(unit 1)
 				)
 			)
