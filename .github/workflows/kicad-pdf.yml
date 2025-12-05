@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - mods
     # Optional: don't re-run when CI itself pushes with [skip ci]
     # (head_commit.message is only set for push events)
     # This is a *job-level* guard:
