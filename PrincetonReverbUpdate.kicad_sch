@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Modulus Princetown Reverb")
+		(date "2025-12-05")
+		(comment 1 "Original schematic & kit as supplied")
 	)
 	(lib_symbols
 		(symbol "CanCap:JJ_CanCap"
@@ -867,219 +869,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack2_Ground_SwitchT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2_Ground_SwitchT"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched T Pole (Normalling)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack2_Ground_SwitchT_0_1"
-				(rectangle
-					(start -2.54 0)
-					(end -3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -0.254) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack2_Ground_SwitchT_1_1"
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -1090,22 +879,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
+			(property "Reference" "C24"
+				(at -2.794 1.27 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
+			(property "Value" "25u 50V"
+				(at -2.794 -0.508 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -1881,6 +1670,219 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DevicesTC:AudioJack2_Ground_SwitchT_TC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J8"
+				(at 0 7.366 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "Switchcraft L12A"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched T Pole (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack2_Ground_SwitchT_TC_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack2_Ground_SwitchT_TC_1_1"
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5789,7 +5791,7 @@
 	)
 	(text "Red"
 		(exclude_from_sim no)
-		(at 246.634 152.908 0)
+		(at 246.634 149.098 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5810,7 +5812,7 @@
 	)
 	(text "In reality the mains is hard-wired.\n• Strain relief on chassis\n• L: Brown, N: Blue, PE: Green/Yellow (per IEC)\n• Ensure PE wire is longer than L and N"
 		(exclude_from_sim no)
-		(at 185.42 162.56 0)
+		(at 185.42 160.528 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5843,7 +5845,7 @@
 	)
 	(text "Blue"
 		(exclude_from_sim no)
-		(at 229.108 155.194 0)
+		(at 229.108 151.384 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5865,7 +5867,7 @@
 	)
 	(text "Green"
 		(exclude_from_sim no)
-		(at 249.682 160.782 0)
+		(at 249.682 156.972 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5876,7 +5878,7 @@
 	)
 	(text "Yellow"
 		(exclude_from_sim no)
-		(at 247.142 140.208 0)
+		(at 247.142 136.398 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5887,7 +5889,7 @@
 	)
 	(text "Brown"
 		(exclude_from_sim no)
-		(at 228.6 141.224 0)
+		(at 228.6 137.414 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5920,7 +5922,7 @@
 	)
 	(text "355 - 0 - 355 @ 120mA\n6.3V @ 2A\n5V @ 2A"
 		(exclude_from_sim no)
-		(at 241.554 165.862 0)
+		(at 240.03 162.052 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5950,20 +5952,9 @@
 		)
 		(uuid "9ce4d3f2-7a25-411a-a7ed-00f1aa2e6f94")
 	)
-	(text "Symbols Missing:\n• 6V6"
-		(exclude_from_sim no)
-		(at 180.086 177.546 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a7ed313e-99dc-444e-836e-52f982937a2a")
-	)
 	(text "Green"
 		(exclude_from_sim no)
-		(at 249.174 155.702 0)
+		(at 249.174 151.892 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5974,7 +5965,7 @@
 	)
 	(text "Red"
 		(exclude_from_sim no)
-		(at 246.888 144.78 0)
+		(at 246.888 140.97 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5985,7 +5976,7 @@
 	)
 	(text "Gr/Yel"
 		(exclude_from_sim no)
-		(at 246.888 157.988 0)
+		(at 246.888 154.178 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6007,7 +5998,7 @@
 	)
 	(text "Black"
 		(exclude_from_sim no)
-		(at 245.618 149.86 0)
+		(at 245.618 146.05 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6214,7 +6205,7 @@
 		(uuid "8c09355f-bfce-4f6a-94bd-ce92c30c3e25")
 	)
 	(junction
-		(at 259.08 143.51)
+		(at 259.08 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94978944-c213-49de-a7d8-1796d495304b")
@@ -6248,6 +6239,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c198f12-0416-4c3b-9682-d52e51e1253c")
+	)
+	(junction
+		(at 276.86 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e851caa-3a74-4b8b-9729-512e3868f8f0")
 	)
 	(junction
 		(at 40.64 149.86)
@@ -6428,12 +6425,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc56db2b-1faf-4deb-93cf-fdccadd64a7b")
-	)
-	(junction
-		(at 276.86 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd9c58fe-e755-4e37-b861-b32aa3c9c5ea")
 	)
 	(no_connect
 		(at 261.62 25.4)
@@ -6745,7 +6736,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 161.29) (xy 248.92 161.29)
+			(xy 256.54 157.48) (xy 248.92 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6835,7 +6826,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 143.51) (xy 259.08 146.05)
+			(xy 259.08 139.7) (xy 259.08 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7105,7 +7096,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 153.67) (xy 259.08 153.67)
+			(xy 248.92 149.86) (xy 259.08 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7245,7 +7236,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 143.51) (xy 259.08 127)
+			(xy 259.08 139.7) (xy 259.08 127)
 		)
 		(stroke
 			(width 0)
@@ -7325,7 +7316,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 156.21) (xy 215.9 153.67)
+			(xy 215.9 152.4) (xy 215.9 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7395,7 +7386,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 146.05) (xy 215.9 148.59)
+			(xy 215.9 142.24) (xy 215.9 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7565,7 +7556,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 135.89) (xy 276.86 135.89)
+			(xy 248.92 132.08) (xy 276.86 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7705,7 +7696,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 146.05) (xy 205.74 146.05)
+			(xy 276.86 132.08) (xy 276.86 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862184f5-7b5f-44b0-a390-f42f32927449")
+	)
+	(wire
+		(pts
+			(xy 201.93 142.24) (xy 205.74 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8075,7 +8076,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 149.86) (xy 274.32 149.86)
+			(xy 276.86 146.05) (xy 274.32 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8255,7 +8256,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 156.21) (xy 248.92 156.21)
+			(xy 256.54 152.4) (xy 248.92 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8285,7 +8286,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 146.05) (xy 215.9 146.05)
+			(xy 213.36 142.24) (xy 215.9 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8295,7 +8296,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 153.67) (xy 227.33 153.67)
+			(xy 226.06 149.86) (xy 227.33 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8365,7 +8366,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 143.51) (xy 259.08 143.51)
+			(xy 248.92 139.7) (xy 259.08 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8395,7 +8396,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 148.59) (xy 227.33 148.59)
+			(xy 226.06 144.78) (xy 227.33 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8515,7 +8516,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 148.59) (xy 227.33 143.51)
+			(xy 227.33 144.78) (xy 227.33 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8575,16 +8576,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 135.89) (xy 276.86 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2025195-13bd-4b42-a8f7-fb2c6343ea0c")
-	)
-	(wire
-		(pts
 			(xy 110.49 129.54) (xy 110.49 128.27)
 		)
 		(stroke
@@ -8595,7 +8586,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 156.21) (xy 215.9 156.21)
+			(xy 201.93 152.4) (xy 215.9 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8635,7 +8626,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 133.35) (xy 276.86 135.89)
+			(xy 276.86 129.54) (xy 276.86 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8655,7 +8646,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 140.97) (xy 248.92 140.97)
+			(xy 274.32 137.16) (xy 248.92 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8735,7 +8726,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 147.32) (xy 274.32 140.97)
+			(xy 274.32 143.51) (xy 274.32 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8815,7 +8806,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 153.67) (xy 259.08 151.13)
+			(xy 259.08 149.86) (xy 259.08 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8909,7 +8900,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
@@ -8953,7 +8944,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
@@ -8997,7 +8988,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
@@ -9019,7 +9010,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
@@ -9151,7 +9142,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
@@ -9173,7 +9164,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right)
 		)
@@ -9195,7 +9186,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
@@ -9261,7 +9252,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
@@ -9371,7 +9362,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right)
 		)
@@ -9393,7 +9384,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
@@ -9411,7 +9402,7 @@
 	)
 	(global_label "Fil1"
 		(shape input)
-		(at 256.54 156.21 0)
+		(at 256.54 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9421,7 +9412,7 @@
 		)
 		(uuid "b4bdf637-eefc-4050-b589-d7f63582ebc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.0933 156.21 0)
+			(at 263.0933 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +9450,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right)
 		)
@@ -9477,7 +9468,7 @@
 	)
 	(global_label "Fil2"
 		(shape input)
-		(at 256.54 161.29 0)
+		(at 256.54 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9487,7 +9478,7 @@
 		)
 		(uuid "c0f680f3-a4b7-42c8-945a-a4ac84648b15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.0933 161.29 0)
+			(at 263.0933 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9591,7 +9582,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
@@ -9719,7 +9710,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 209.55 146.05 90)
+		(at 209.55 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9728,7 +9719,7 @@
 		(fields_autoplaced yes)
 		(uuid "0435cba2-17b8-4ee9-aa68-15e36b14134a")
 		(property "Reference" "F1"
-			(at 209.55 141.1435 90)
+			(at 209.55 137.3335 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9736,7 +9727,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 209.55 143.5678 90)
+			(at 209.55 139.7578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,7 +9735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 147.828 90)
+			(at 209.55 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,7 +9744,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 146.05 0)
+			(at 209.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9762,7 +9753,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 209.55 146.05 0)
+			(at 209.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10162,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "250k A"
+		(property "Value" "250k Log"
 			(at 79.5021 49.2677 0)
 			(effects
 				(font
@@ -10244,7 +10235,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3Meg RA"
+		(property "Value" "3M RLog"
 			(at 165.862 115.3077 0)
 			(effects
 				(font
@@ -10796,7 +10787,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_Ground_SwitchT")
+		(lib_id "DevicesTC:AudioJack2_Ground_SwitchT_TC")
 		(at 27.94 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11192,7 +11183,7 @@
 			(at 266.573 57.0667 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11305,7 +11296,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 158.75 90)
+		(at 248.92 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11314,7 +11305,7 @@
 		(fields_autoplaced yes)
 		(uuid "32a22c9f-f4d6-4de6-9a93-3807bfe321d4")
 		(property "Reference" "#PWR6"
-			(at 255.27 158.75 0)
+			(at 255.27 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,7 +11314,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.095 158.75 90)
+			(at 252.095 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,7 +11323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 158.75 0)
+			(at 248.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,7 +11332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 158.75 0)
+			(at 248.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,7 +11341,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 158.75 0)
+			(at 248.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,19 +12009,19 @@
 		(fields_autoplaced yes)
 		(uuid "43380bc5-f229-483f-a971-3e9739380a02")
 		(property "Reference" "C24"
-			(at 249.301 103.8168 0)
+			(at 249.174 105.41 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "25u 50V"
-			(at 249.301 106.2411 0)
+			(at 249.174 103.632 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -12605,7 +12596,7 @@
 			(at 266.573 34.2067 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13061,7 +13052,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPST")
-		(at 220.98 151.13 0)
+		(at 220.98 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13070,7 +13061,7 @@
 		(fields_autoplaced yes)
 		(uuid "6527c812-a82c-4e54-be01-a879e6f9c36c")
 		(property "Reference" "SW1"
-			(at 220.98 142.6675 0)
+			(at 220.98 138.8575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13078,7 +13069,7 @@
 			)
 		)
 		(property "Value" "SW_DPST"
-			(at 220.98 145.0918 0)
+			(at 220.98 141.2818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13086,7 +13077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 151.13 0)
+			(at 220.98 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13095,7 +13086,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 151.13 0)
+			(at 220.98 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13104,7 +13095,7 @@
 			)
 		)
 		(property "Description" "Double Pole Single Throw (DPST) Switch"
-			(at 220.98 151.13 0)
+			(at 220.98 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13360,7 +13351,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 201.93 151.13 90)
+		(at 201.93 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13369,7 +13360,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ed0b608-00bf-4a76-8e73-d9f51a22e038")
 		(property "Reference" "#PWR1"
-			(at 207.01 151.13 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13378,7 +13369,7 @@
 			)
 		)
 		(property "Value" "Chassis"
-			(at 204.6986 151.257 90)
+			(at 204.6986 147.447 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13387,7 +13378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 151.13 0)
+			(at 203.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13396,7 +13387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 151.13 0)
+			(at 203.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13405,7 +13396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 201.93 151.13 0)
+			(at 201.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13653,15 +13644,15 @@
 	(symbol
 		(lib_id "DevicesTC:C_compact")
 		(at 73.66 53.34 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77bd10ba-5b45-4f7a-a04e-354275c9d146")
 		(property "Reference" "C5"
-			(at 73.66 47.6497 90)
+			(at 73.66 56.642 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13669,7 +13660,7 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 73.66 49.6652 90)
+			(at 73.66 58.42 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13677,7 +13668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 52.3748 0)
+			(at 77.47 54.3052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14194,7 +14185,7 @@
 	)
 	(symbol
 		(lib_id "power:HT")
-		(at 276.86 133.35 0)
+		(at 276.86 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14203,7 +14194,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e26a76b-145e-4cde-8cda-c95f3e20ffa7")
 		(property "Reference" "#PWR2"
-			(at 276.86 137.16 0)
+			(at 276.86 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14212,7 +14203,7 @@
 			)
 		)
 		(property "Value" "HT"
-			(at 276.86 129.9789 0)
+			(at 276.86 126.1689 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14220,7 +14211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 133.35 0)
+			(at 276.86 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14229,7 +14220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 133.35 0)
+			(at 276.86 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14238,7 +14229,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"HT\""
-			(at 276.86 133.35 0)
+			(at 276.86 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14260,32 +14251,31 @@
 	)
 	(symbol
 		(lib_id "Connector:IEC_60320_C14_Receptacle")
-		(at 193.04 151.13 0)
+		(at 193.04 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "7e53b88c-9cd1-4a9c-8353-6688a9511b9c")
 		(property "Reference" "J7"
-			(at 193.04 139.3655 0)
+			(at 193.04 136.906 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Value" "IEC Socket"
-			(at 193.04 141.7898 0)
+			(at 193.04 138.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 190.754 151.13 0)
+			(at 190.754 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14294,7 +14284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.754 151.13 0)
+			(at 190.754 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14303,7 +14293,7 @@
 			)
 		)
 		(property "Description" "C14 Plug, 10A max"
-			(at 192.405 151.13 0)
+			(at 192.405 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,16 +14397,15 @@
 	)
 	(symbol
 		(lib_id "Transformer_1P_3S:Transformer_1P_3S")
-		(at 238.76 148.59 0)
+		(at 238.76 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8267b9cf-869a-4ff9-af31-8555f2e136b9")
 		(property "Reference" "T2"
-			(at 238.1335 131.8725 0)
+			(at 238.252 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14424,7 +14413,7 @@
 			)
 		)
 		(property "Value" "Transformer_1P_3S"
-			(at 238.1335 134.2968 0)
+			(at 238.252 129.1703 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14432,7 +14421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 148.59 0)
+			(at 238.76 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14441,7 +14430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 148.59 0)
+			(at 238.76 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14450,7 +14439,7 @@
 			)
 		)
 		(property "Description" "Transformer, single primary, dual secondary"
-			(at 238.76 148.59 0)
+			(at 238.76 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14867,7 +14856,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_Ground_SwitchT")
+		(lib_id "DevicesTC:AudioJack2_Ground_SwitchT_TC")
 		(at 266.7 22.86 0)
 		(mirror y)
 		(unit 1)
@@ -14877,18 +14866,18 @@
 		(dnp no)
 		(uuid "8c7349f5-24f0-495b-80ed-e8db22332198")
 		(property "Reference" "J8"
-			(at 266.7 13.97 0)
+			(at 266.7 15.494 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Value" "Switchcraft L12A"
-			(at 266.7 16.51 0)
+			(at 266.7 17.526 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -15237,7 +15226,7 @@
 	)
 	(symbol
 		(lib_id "Valves_GZ34:GZ34")
-		(at 266.7 148.59 0)
+		(at 266.7 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15245,7 +15234,7 @@
 		(dnp no)
 		(uuid "923112ac-e64b-44ec-9700-01ec2d423ec3")
 		(property "Reference" "U7"
-			(at 266.7 140.97 0)
+			(at 266.7 137.16 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -15253,7 +15242,7 @@
 			)
 		)
 		(property "Value" "GZ34"
-			(at 266.7 142.494 0)
+			(at 266.7 138.684 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -15261,7 +15250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 148.59 0)
+			(at 266.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15270,7 +15259,7 @@
 			)
 		)
 		(property "Datasheet" "5AR4/GZ34"
-			(at 266.7 148.59 0)
+			(at 266.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15279,7 +15268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 148.59 0)
+			(at 266.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15392,7 +15381,7 @@
 			)
 		)
 		(property "Value" "Transformer_1P_1S_small"
-			(at 59.69 92.456 0)
+			(at 61.468 92.456 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -16021,7 +16010,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "250k A"
+		(property "Value" "250k Log"
 			(at 79.5021 37.8377 0)
 			(effects
 				(font
@@ -16487,7 +16476,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 148.59 90)
+		(at 248.92 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16496,7 +16485,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5e0a9af-dc83-4d15-bd04-2ee8b56e29cc")
 		(property "Reference" "#PWR5"
-			(at 255.27 148.59 0)
+			(at 255.27 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16505,7 +16494,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.095 148.59 90)
+			(at 252.095 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16514,7 +16503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 148.59 0)
+			(at 248.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16523,7 +16512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 148.59 0)
+			(at 248.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16532,7 +16521,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 148.59 0)
+			(at 248.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17094,7 +17083,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_Ground_SwitchT")
+		(lib_id "DevicesTC:AudioJack2_Ground_SwitchT_TC")
 		(at 27.94 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17926,7 +17915,7 @@
 				)
 			)
 		)
-		(property "Value" "1Meg A"
+		(property "Value" "1M A"
 			(at 85.598 41.91 90)
 			(effects
 				(font
@@ -18207,7 +18196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_Ground_SwitchT")
+		(lib_id "DevicesTC:AudioJack2_Ground_SwitchT_TC")
 		(at 266.7 45.72 0)
 		(mirror y)
 		(unit 1)
@@ -18217,18 +18206,18 @@
 		(dnp no)
 		(uuid "da59074b-b64f-4273-8673-d31235dc5872")
 		(property "Reference" "J9"
-			(at 266.7 36.83 0)
+			(at 266.7 38.354 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Value" "Switchcraft L12A"
-			(at 266.7 39.37 0)
+			(at 266.7 40.132 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -18283,15 +18272,15 @@
 	(symbol
 		(lib_id "DevicesTC:C_compact")
 		(at 73.66 43.18 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dce60508-a2bf-49c7-b0b1-9bf6cc7a4c61")
 		(property "Reference" "C4"
-			(at 73.66 37.4897 90)
+			(at 70.612 44.45 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -18299,7 +18288,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 73.66 39.5052 90)
+			(at 70.866 46.228 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -18307,7 +18296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 42.2148 0)
+			(at 77.47 44.1452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
