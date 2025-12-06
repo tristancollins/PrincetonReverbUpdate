@@ -2490,7 +2490,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DPST"
+		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2499,15 +2499,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 6.35 0)
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DPST"
-				(at 0 -5.08 0)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2532,7 +2532,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Double Pole Single Throw (DPST) Switch"
+			(property "Description" "Single Pole Single Throw (SPST) switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2541,7 +2541,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch dual double-pole single-throw OFF-ON"
+			(property "ki_keywords" "switch lever"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2550,20 +2550,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_DPST_0_0"
+			(symbol "SW_SPST_0_0"
 				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -2.54)
+					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2575,67 +2564,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 2.794) (xy 1.27 4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.286) (xy 1.27 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.635)
+						(xy -1.524 0.254) (xy 1.524 1.778)
 					)
 					(stroke
 						(width 0)
@@ -2646,18 +2575,7 @@
 					)
 				)
 				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2668,40 +2586,11 @@
 					)
 				)
 			)
-			(symbol "SW_DPST_1_1"
-				(rectangle
-					(start -3.175 4.445)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "SW_SPST_1_1"
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "1"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2717,27 +2606,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "2"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7386,16 +7257,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 142.24) (xy 215.9 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66024a19-fd7b-4d0d-b4d3-8a94fb468552")
-	)
-	(wire
-		(pts
 			(xy 104.14 128.27) (xy 104.14 129.54)
 		)
 		(stroke
@@ -8296,7 +8157,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 149.86) (xy 227.33 149.86)
+			(xy 215.9 149.86) (xy 227.33 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8396,7 +8257,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 144.78) (xy 227.33 144.78)
+			(xy 226.06 142.24) (xy 227.33 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8516,7 +8377,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 144.78) (xy 227.33 139.7)
+			(xy 227.33 142.24) (xy 227.33 139.7)
 		)
 		(stroke
 			(width 0)
@@ -13051,8 +12912,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPST")
-		(at 220.98 147.32 0)
+		(lib_id "Switch:SW_SPST")
+		(at 220.98 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13061,23 +12922,23 @@
 		(fields_autoplaced yes)
 		(uuid "6527c812-a82c-4e54-be01-a879e6f9c36c")
 		(property "Reference" "SW1"
-			(at 220.98 138.8575 0)
+			(at 220.98 136.4445 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Value" "SW_DPST"
-			(at 220.98 141.2818 0)
+			(at 220.98 138.8688 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 147.32 0)
+			(at 220.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13086,7 +12947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 147.32 0)
+			(at 220.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13094,8 +12955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Double Pole Single Throw (DPST) Switch"
-			(at 220.98 147.32 0)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 220.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13108,12 +12969,6 @@
 		)
 		(pin "1"
 			(uuid "550a24c2-0c09-426e-85b8-664664297958")
-		)
-		(pin "4"
-			(uuid "07565a57-bc34-4ae9-bb29-d2956aa036b6")
-		)
-		(pin "3"
-			(uuid "704f3ccc-c9e2-46ae-a392-02366d7c8af1")
 		)
 		(instances
 			(project ""
