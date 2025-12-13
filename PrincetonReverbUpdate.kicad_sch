@@ -5660,6 +5660,19 @@
 		)
 		(uuid "07a379b5-4954-4d5f-82aa-8c745e205220")
 	)
+	(text "Treble"
+		(exclude_from_sim no)
+		(at 82.55 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0fdfc33d-b568-44b5-9e53-450770429ba6")
+	)
 	(text "Red"
 		(exclude_from_sim no)
 		(at 246.634 149.098 0)
@@ -5673,10 +5686,12 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 21.59 58.674 0)
+		(at 21.59 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "1953b3a5-8705-4a07-976c-ececc7ba7822")
@@ -5780,6 +5795,19 @@
 		)
 		(uuid "6a1b1681-72e4-4dc7-9c9a-6b7f75a9e23d")
 	)
+	(text "Intensity"
+		(exclude_from_sim no)
+		(at 234.95 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6ebd3a37-2257-46c1-a063-19b612961fd1")
+	)
 	(text "Black"
 		(exclude_from_sim no)
 		(at 249.174 45.974 0)
@@ -5802,6 +5830,19 @@
 		)
 		(uuid "7a44ca8b-5766-4c7f-9490-edca46328a19")
 	)
+	(text "Bass"
+		(exclude_from_sim no)
+		(at 82.55 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7db1de95-b76c-4cc3-86b4-318b5cb98817")
+	)
 	(text "240V"
 		(exclude_from_sim no)
 		(at 231.14 160.274 0)
@@ -5815,13 +5856,28 @@
 	)
 	(text "2"
 		(exclude_from_sim no)
-		(at 22.098 34.798 0)
+		(at 21.59 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "9ce4d3f2-7a25-411a-a7ed-00f1aa2e6f94")
+	)
+	(text "Speed"
+		(exclude_from_sim no)
+		(at 163.83 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "9fec1337-ddb4-40d9-b742-ea595d4088a0")
 	)
 	(text "Green"
 		(exclude_from_sim no)
@@ -5856,6 +5912,19 @@
 		)
 		(uuid "be4b04fc-3fb0-4076-8ef5-ee2c0732676f")
 	)
+	(text "Reverb"
+		(exclude_from_sim no)
+		(at 124.46 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c1d735fd-c660-4c6b-9fe0-7332f01b7644")
+	)
 	(text "Brown"
 		(exclude_from_sim no)
 		(at 235.712 49.276 0)
@@ -5877,6 +5946,18 @@
 			(justify left)
 		)
 		(uuid "d05a252f-babd-449d-a455-01f5e1dc797b")
+	)
+	(text "Vol"
+		(exclude_from_sim no)
+		(at 90.17 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+				(bold yes)
+			)
+		)
+		(uuid "d789984e-ac7c-423c-8f55-ccafbf14d507")
 	)
 	(text "Red"
 		(exclude_from_sim no)
