@@ -6115,6 +6115,16 @@
 		)
 		(uuid 00eae185-f732-48bd-b873-f92780ebc867)
 	)
+	(text "~280VDC"
+		(exclude_from_sim no)
+		(at 45.72 147.32 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "02402aad-1dee-495f-85fd-a47132456940")
+	)
 	(text "Blue"
 		(exclude_from_sim no)
 		(at 235.458 35.814 0)
@@ -6125,6 +6135,16 @@
 			(justify left)
 		)
 		(uuid "07a379b5-4954-4d5f-82aa-8c745e205220")
+	)
+	(text "420VDC"
+		(exclude_from_sim no)
+		(at 87.63 146.05 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "080894d8-b24f-4821-a6c7-42e611998f39")
 	)
 	(text "Treble"
 		(exclude_from_sim no)
@@ -6208,6 +6228,18 @@
 		)
 		(uuid "386dbf12-062c-498a-a10e-b123f88043f1")
 	)
+	(text "Reverb \nprotection"
+		(exclude_from_sim no)
+		(at 35.56 92.71 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "3aa30b30-1816-4b8b-9357-838b324a4c55")
+	)
 	(text "LFO gets its own spur"
 		(exclude_from_sim no)
 		(at 196.85 73.66 0)
@@ -6253,6 +6285,29 @@
 		)
 		(uuid "3e90b015-6af3-4cd0-ba63-d5915b20806a")
 	)
+	(text "Reverb Recovery,\nPI, Stg3"
+		(exclude_from_sim no)
+		(at 41.91 138.43 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+		)
+		(uuid "3eff6a07-a45a-4f00-897c-ea15c189f629")
+	)
+	(text "LED for max gain"
+		(exclude_from_sim no)
+		(at 198.12 127 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "491323d5-10d7-494b-9632-12f7a7ea682d")
+	)
 	(text "Yellow"
 		(exclude_from_sim no)
 		(at 247.142 136.398 0)
@@ -6264,6 +6319,17 @@
 		)
 		(uuid "50963c45-03f0-4b79-b583-d3f98958a5e2")
 	)
+	(text "Resevoir"
+		(exclude_from_sim no)
+		(at 87.63 138.43 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+		)
+		(uuid "50e00289-8e75-4802-8ed7-5c09b599776b")
+	)
 	(text "Brown"
 		(exclude_from_sim no)
 		(at 228.6 137.414 0)
@@ -6274,6 +6340,49 @@
 			(justify left)
 		)
 		(uuid "52b28e3c-2f25-48c4-8198-9d4d50cca06f")
+	)
+	(text "Screens"
+		(exclude_from_sim no)
+		(at 72.39 138.43 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+		)
+		(uuid "55da9901-a2ea-489d-b252-2f5f97791e35")
+	)
+	(text "420VDC"
+		(exclude_from_sim no)
+		(at 276.86 124.46 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "5778fae3-59df-4fc8-bc47-5a2fa6f995e0")
+	)
+	(text "Better grounding scheme"
+		(exclude_from_sim no)
+		(at 19.05 135.89 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "59c4b829-3746-4203-bb8b-c44a7634681c")
+	)
+	(text "240VDC"
+		(exclude_from_sim no)
+		(at 31.75 147.32 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "5de47bbb-7085-44c1-b6dc-c578cdc391ab")
 	)
 	(text "6.6k to 8ohm"
 		(exclude_from_sim no)
@@ -6299,6 +6408,18 @@
 		)
 		(uuid "6ebd3a37-2257-46c1-a063-19b612961fd1")
 	)
+	(text "Reduced coupling caps"
+		(exclude_from_sim no)
+		(at 179.07 58.42 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "729f151c-865d-44b0-a8af-667d7a7503e7")
+	)
 	(text "Black"
 		(exclude_from_sim no)
 		(at 249.174 45.974 0)
@@ -6321,6 +6442,18 @@
 		)
 		(uuid "7a44ca8b-5766-4c7f-9490-edca46328a19")
 	)
+	(text "Variable balance"
+		(exclude_from_sim no)
+		(at 193.04 24.13 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "7a929037-7d18-486e-bd2c-42a297b97809")
+	)
 	(text "Bass"
 		(exclude_from_sim no)
 		(at 82.55 54.61 0)
@@ -6333,6 +6466,18 @@
 			(justify left)
 		)
 		(uuid "7db1de95-b76c-4cc3-86b4-318b5cb98817")
+	)
+	(text "Variable bias"
+		(exclude_from_sim no)
+		(at 224.79 114.3 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "86da49f7-8aee-4296-8665-e8e8ea12ca0d")
 	)
 	(text "240V"
 		(exclude_from_sim no)
@@ -6357,6 +6502,18 @@
 			(justify left)
 		)
 		(uuid "9506c718-0257-4a81-ac62-a924406659aa")
+	)
+	(text "DPST for safety"
+		(exclude_from_sim no)
+		(at 214.63 135.89 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "9c7aed55-2d09-4855-b127-bc48873f8c38")
 	)
 	(text "2"
 		(exclude_from_sim no)
@@ -6383,6 +6540,16 @@
 		)
 		(uuid "9fec1337-ddb4-40d9-b742-ea595d4088a0")
 	)
+	(text "400VDC"
+		(exclude_from_sim no)
+		(at 72.39 146.05 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "a6cbc4f4-3f34-4155-8e9b-d11b158fdda9")
+	)
 	(text "Green"
 		(exclude_from_sim no)
 		(at 249.174 151.892 0)
@@ -6404,6 +6571,16 @@
 			(justify left)
 		)
 		(uuid "ba8252be-2496-490c-b678-117ce81412e9")
+	)
+	(text "-~34VDC"
+		(exclude_from_sim no)
+		(at 251.46 96.52 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "bad20cb9-3d86-4e24-a023-73ff1305abc5")
 	)
 	(text "Gr/Yel"
 		(exclude_from_sim no)
@@ -6463,6 +6640,18 @@
 		)
 		(uuid "d789984e-ac7c-423c-8f55-ccafbf14d507")
 	)
+	(text "Stop HT being\nnear control panel"
+		(exclude_from_sim no)
+		(at 58.42 22.86 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "d9463b7b-59d6-4a50-a752-165b677bc91c")
+	)
 	(text "Red"
 		(exclude_from_sim no)
 		(at 235.712 41.148 0)
@@ -6473,6 +6662,27 @@
 			(justify left)
 		)
 		(uuid "daef01e2-a2ba-422c-bf61-8930c7b74704")
+	)
+	(text "Stg 1 & 2"
+		(exclude_from_sim no)
+		(at 27.94 138.43 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+		)
+		(uuid "db574985-e50e-4426-81bc-7ebc6aed6312")
+	)
+	(text "~400VDC"
+		(exclude_from_sim no)
+		(at 203.2 78.74 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "e13c55b0-0965-439b-8d07-65251f4bd065")
 	)
 	(text "or chassis"
 		(exclude_from_sim no)
@@ -6485,6 +6695,39 @@
 			(justify left)
 		)
 		(uuid "e7f0096d-1d9b-4a25-ae12-f9103e64bbe3")
+	)
+	(text "Reverb Driver"
+		(exclude_from_sim no)
+		(at 57.15 138.43 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+		)
+		(uuid "e9cd4d92-2bec-46ec-b578-96fa654abd7b")
+	)
+	(text "Ultrapath cap\nto reduce PSRR"
+		(exclude_from_sim no)
+		(at 69.85 123.19 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "faa14fd0-7db0-4a53-8f8f-90ccca9d88a4")
+	)
+	(text "320VDC"
+		(exclude_from_sim no)
+		(at 60.96 147.32 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "fbf03792-d0aa-42a8-8d8c-80215d1cc11a")
 	)
 	(junction
 		(at 96.52 53.34)
@@ -8712,7 +8955,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 31.75) (xy 67.31 31.75)
+			(xy 52.07 31.75) (xy 55.88 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9039,6 +9282,16 @@
 			(type default)
 		)
 		(uuid "aac3bfd6-afb2-4074-87f4-f6048cda5ae8")
+	)
+	(wire
+		(pts
+			(xy 63.5 31.75) (xy 67.31 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbb1352-e2de-462b-8ae6-284ace1156ad")
 	)
 	(wire
 		(pts
@@ -18685,6 +18938,80 @@
 		)
 	)
 	(symbol
+		(lib_id "DevicesTC:C_compact")
+		(at 59.69 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b96cf7ac-2aac-4174-bc44-1b61f21341fd")
+		(property "Reference" "C28"
+			(at 59.69 26.0597 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 59.69 28.0752 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 32.7152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49d8ee05-3c41-4ce1-910d-82d4dc9b59b0")
+		)
+		(pin "1"
+			(uuid "d2ee07f5-ad59-4ab4-a547-21c32b0dd800")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 210.82 43.18 90)
 		(unit 1)
@@ -19385,14 +19712,20 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "47n"
 			(at 185.42 49.6652 90)
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -19741,14 +20074,20 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "47n"
 			(at 185.42 28.0752 90)
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
