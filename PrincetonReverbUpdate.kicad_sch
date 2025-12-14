@@ -6539,9 +6539,9 @@
 		(at 224.79 114.3 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
-				(color 72 72 72 1)
 			)
 			(justify left)
 		)
