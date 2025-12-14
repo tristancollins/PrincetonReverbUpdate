@@ -1166,6 +1166,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Lamp"
 			(pin_numbers
 				(hide yes)
@@ -1301,6 +1486,158 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer_Small"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Small"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Small_0_1"
+				(rectangle
+					(start 0.762 1.8034)
+					(end -0.762 -1.8034)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.9906)
+					(name "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -2490,7 +2827,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Switch:SW_DPST"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2499,15 +2836,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 3.175 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "SW_DPST"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2532,7 +2869,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "Description" "Double Pole Single Throw (DPST) Switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2541,7 +2878,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch lever"
+			(property "ki_keywords" "switch dual double-pole single-throw OFF-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2550,9 +2887,20 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPST_0_0"
+			(symbol "SW_DPST_0_0"
 				(circle
-					(center -2.032 0)
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2564,7 +2912,67 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy -1.524 2.794) (xy 1.27 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy 1.27 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -2575,7 +2983,18 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2586,11 +3005,40 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SW_DPST_1_1"
+				(rectangle
+					(start -3.175 4.445)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "A"
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2606,9 +3054,27 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "B"
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5696,6 +6162,19 @@
 		)
 		(uuid "1953b3a5-8705-4a07-976c-ececc7ba7822")
 	)
+	(text "Balance"
+		(exclude_from_sim no)
+		(at 199.39 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1a45152b-9f81-4004-b03d-92a195e5717f")
+	)
 	(text "In reality the mains is hard-wired.\n• Strain relief on chassis\n• L: Brown, N: Blue, PE: Green/Yellow (per IEC)\n• Ensure PE wire is longer than L and N"
 		(exclude_from_sim no)
 		(at 185.42 160.528 0)
@@ -5866,6 +6345,19 @@
 		)
 		(uuid "8bf9b976-a4e8-457e-9047-de16da092ad4")
 	)
+	(text "Bias"
+		(exclude_from_sim no)
+		(at 229.87 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9506c718-0257-4a81-ac62-a924406659aa")
+	)
 	(text "2"
 		(exclude_from_sim no)
 		(at 21.59 34.29 0)
@@ -6013,7 +6505,7 @@
 		(uuid "085048e6-66a2-4a1e-8a6a-5c68045eb8cb")
 	)
 	(junction
-		(at 246.38 107.95)
+		(at 246.38 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "093e192e-5281-4fb9-b167-8de0359f4c3f")
@@ -6109,22 +6601,28 @@
 		(uuid "34df33e0-3a01-493a-abe5-587c8d3f9081")
 	)
 	(junction
-		(at 254 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40cf1cac-8173-4781-bfc6-cd51b6291d8a")
-	)
-	(junction
 		(at 104.14 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45934288-1e5c-4c51-9c1b-c08968bcef62")
 	)
 	(junction
+		(at 255.27 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46a8293a-25b6-423b-9f56-d8844ccfb59f")
+	)
+	(junction
 		(at 130.81 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47e1eb50-206c-4803-afd5-9c6a818b5f1b")
+	)
+	(junction
+		(at 53.34 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "539c830e-9147-4304-8eb8-c1cc375749fe")
 	)
 	(junction
 		(at 54.61 116.84)
@@ -6161,12 +6659,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "694b5024-c301-482d-9e7b-be662ef8dbc5")
-	)
-	(junction
-		(at 200.66 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bee2779-07a4-4e5d-b0af-2b1ae5d0fb23")
 	)
 	(junction
 		(at 27.94 157.48)
@@ -6259,6 +6751,24 @@
 		(uuid "8c78032d-dcb5-4faf-98a7-65130aed9669")
 	)
 	(junction
+		(at 255.27 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c82abfc-961c-4e2a-b453-b30126e9e66d")
+	)
+	(junction
+		(at 237.49 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ecf6b50-09aa-4ca6-a8ea-d0d89fa3462a")
+	)
+	(junction
+		(at 53.34 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "940c6690-bbc8-418d-8881-200958951075")
+	)
+	(junction
 		(at 259.08 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6305,6 +6815,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0fd77f3-11d5-466e-aad6-8b9568787bb6")
+	)
+	(junction
+		(at 233.68 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4dfdb96-82df-43ff-b26f-13313b56a39e")
 	)
 	(junction
 		(at 57.15 157.48)
@@ -6391,6 +6907,12 @@
 		(uuid "bc04de7d-90fd-4f08-9287-d08ee19c99bb")
 	)
 	(junction
+		(at 69.85 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc80a9d4-786f-408f-9585-2c2b73436c97")
+	)
+	(junction
 		(at 81.28 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6409,10 +6931,22 @@
 		(uuid "c7c041ec-ca28-4b9e-b4c9-243d930cc518")
 	)
 	(junction
+		(at 59.69 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca04ec3a-c940-410b-a204-4147b042aeb1")
+	)
+	(junction
 		(at 218.44 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf3dc377-a2e0-4810-b598-9a25d71ed7ba")
+	)
+	(junction
+		(at 69.85 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2694a07-0aa9-456c-95e0-3184ee4f3c38")
 	)
 	(junction
 		(at 210.82 43.18)
@@ -6481,6 +7015,12 @@
 		(uuid "e7fba316-b544-4115-ae4a-e2b35e18aac8")
 	)
 	(junction
+		(at 257.81 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee1cd8b2-7201-4796-8f0b-0fe82c484def")
+	)
+	(junction
 		(at 67.31 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6504,6 +7044,12 @@
 		(color 0 0 0 0)
 		(uuid "fc56db2b-1faf-4deb-93cf-fdccadd64a7b")
 	)
+	(junction
+		(at 233.68 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdaa7623-c934-4fc3-b850-c33f7efb5ce2")
+	)
 	(no_connect
 		(at 104.14 143.51)
 		(uuid "05f008c5-1de3-4897-a91f-e5a9a9c61f3d")
@@ -6525,7 +7071,7 @@
 		(uuid "7ecd0475-6183-4222-ad8e-253b504624e7")
 	)
 	(no_connect
-		(at 71.12 80.01)
+		(at 76.2 77.47)
 		(uuid "8841acda-0092-4da6-953f-610dda64f00e")
 	)
 	(no_connect
@@ -6688,7 +7234,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 38.1) (xy 254 45.72)
+			(xy 257.81 38.1) (xy 257.81 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6738,23 +7284,13 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 107.95) (xy 246.38 107.95)
+			(xy 237.49 119.38) (xy 246.38 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e5261d6-6a9d-48a3-bd5e-520e075ce66b")
-	)
-	(wire
-		(pts
-			(xy 194.31 129.54) (xy 200.66 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f9e13c5-8bb7-42bb-933b-9bc23714f132")
 	)
 	(wire
 		(pts
@@ -6818,6 +7354,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 116.84) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1676b3d7-00d4-46f3-bf3f-98cc3a1cf101")
+	)
+	(wire
+		(pts
 			(xy 99.06 16.51) (xy 99.06 17.78)
 		)
 		(stroke
@@ -6868,6 +7414,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 82.55) (xy 64.77 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e609a6c-335e-4ce3-ba16-1e975d084c40")
+	)
+	(wire
+		(pts
 			(xy 115.57 143.51) (xy 119.38 143.51)
 		)
 		(stroke
@@ -6875,6 +7431,16 @@
 			(type default)
 		)
 		(uuid "1ec5f08e-0d84-4e20-a0b8-c8e7fed720a7")
+	)
+	(wire
+		(pts
+			(xy 194.31 120.65) (xy 194.31 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f44469c-3692-4b94-ab8a-8078d09616ef")
 	)
 	(wire
 		(pts
@@ -6888,7 +7454,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 90.17) (xy 53.34 96.52)
+			(xy 53.34 90.17) (xy 53.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6968,6 +7534,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 147.32) (xy 215.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241cf0f6-269b-4244-a437-71236c522756")
+	)
+	(wire
+		(pts
 			(xy 194.31 129.54) (xy 187.96 129.54)
 		)
 		(stroke
@@ -7038,7 +7614,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 48.26) (xy 259.08 48.26)
+			(xy 254 48.26) (xy 255.27 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7055,6 +7631,16 @@
 			(type default)
 		)
 		(uuid "2b5fbaca-f9d1-4937-8e0e-e0796663b71f")
+	)
+	(wire
+		(pts
+			(xy 241.3 101.6) (xy 237.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9982e7-6a6e-4a01-bf82-cca4fd61d22a")
 	)
 	(wire
 		(pts
@@ -7075,6 +7661,16 @@
 			(type default)
 		)
 		(uuid "2ce9ef71-1eef-41db-9660-9b3cd8dcba91")
+	)
+	(wire
+		(pts
+			(xy 59.69 116.84) (xy 62.23 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321c5650-acc5-4305-b1b8-5d58af44f743")
 	)
 	(wire
 		(pts
@@ -7128,7 +7724,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 45.72) (xy 261.62 45.72)
+			(xy 257.81 45.72) (xy 261.62 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7205,16 +7801,6 @@
 			(type default)
 		)
 		(uuid "3dcf8a68-c2a6-4eda-9f70-31c73275f6b6")
-	)
-	(wire
-		(pts
-			(xy 195.58 39.37) (xy 195.58 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e3cfb4c-9551-4d83-acd7-68a5c7bde825")
 	)
 	(wire
 		(pts
@@ -7358,6 +7944,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 82.55) (xy 64.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46dc6923-d53a-4f27-b3f6-e54c48202eb7")
+	)
+	(wire
+		(pts
 			(xy 82.55 185.42) (xy 77.47 185.42)
 		)
 		(stroke
@@ -7405,6 +8001,16 @@
 			(type default)
 		)
 		(uuid "491dc6f9-c973-49e3-89a7-0b47885ec267")
+	)
+	(wire
+		(pts
+			(xy 53.34 91.44) (xy 53.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a06c202-252c-489b-939b-cb5a3a2db54f")
 	)
 	(wire
 		(pts
@@ -7478,6 +8084,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 40.64) (xy 162.56 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ca2e37-c692-42ba-a0d9-c6e8e350579a")
+	)
+	(wire
+		(pts
 			(xy 36.83 59.69) (xy 33.02 59.69)
 		)
 		(stroke
@@ -7538,16 +8154,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 152.4) (xy 215.9 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d1d9245-4e25-45bc-9f45-a8b414f0644f")
-	)
-	(wire
-		(pts
 			(xy 93.98 118.11) (xy 93.98 129.54)
 		)
 		(stroke
@@ -7605,6 +8211,16 @@
 			(type default)
 		)
 		(uuid "62e4fba3-e916-441c-9239-db8438ff53bb")
+	)
+	(wire
+		(pts
+			(xy 226.06 147.32) (xy 226.06 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634e22bb-b593-4062-b9ab-421e011ee840")
 	)
 	(wire
 		(pts
@@ -7708,6 +8324,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 38.1) (xy 257.81 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d36766b-8a8a-46a0-82fb-91acc2ff9bae")
+	)
+	(wire
+		(pts
 			(xy 96.52 62.23) (xy 96.52 67.31)
 		)
 		(stroke
@@ -7808,6 +8434,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 48.26) (xy 259.08 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e508c6-50f9-481a-87d5-8f0d2c8043a1")
+	)
+	(wire
+		(pts
 			(xy 248.92 132.08) (xy 276.86 132.08)
 		)
 		(stroke
@@ -7885,6 +8521,16 @@
 			(type default)
 		)
 		(uuid "805bddf2-fa84-475f-a73d-308f1616690e")
+	)
+	(wire
+		(pts
+			(xy 237.49 102.87) (xy 237.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8087f183-84ef-4666-883b-74884585d222")
 	)
 	(wire
 		(pts
@@ -7988,7 +8634,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 38.1) (xy 257.81 38.1)
+			(xy 254 38.1) (xy 255.27 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8068,16 +8714,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 120.65) (xy 200.66 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b3bec20-6829-4889-a97f-3ad2718ddbb1")
-	)
-	(wire
-		(pts
 			(xy 187.96 118.11) (xy 187.96 129.54)
 		)
 		(stroke
@@ -8135,6 +8771,16 @@
 			(type default)
 		)
 		(uuid "90b22818-1566-488b-b50f-22aa3b316370")
+	)
+	(wire
+		(pts
+			(xy 69.85 82.55) (xy 71.12 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90baeeeb-cd59-4fd0-bd8d-deaa3c54c80f")
 	)
 	(wire
 		(pts
@@ -8208,7 +8854,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 53.34 85.09)
+			(xy 53.34 81.28) (xy 53.34 83.82)
 		)
 		(stroke
 			(width 0)
@@ -8295,16 +8941,6 @@
 			(type default)
 		)
 		(uuid "a17bf9e2-3c2a-4afd-979d-dcf57ae3d055")
-	)
-	(wire
-		(pts
-			(xy 200.66 129.54) (xy 200.66 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2625fb5-1bbc-4d29-be38-2b1523c57ced")
 	)
 	(wire
 		(pts
@@ -8448,6 +9084,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 91.44) (xy 53.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7031aa-3f7c-4bde-9d2d-485d24789467")
+	)
+	(wire
+		(pts
 			(xy 41.91 143.51) (xy 41.91 144.78)
 		)
 		(stroke
@@ -8528,6 +9174,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 38.1) (xy 255.27 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d812d0-83a3-487a-84b0-fd05f256a0b8")
+	)
+	(wire
+		(pts
 			(xy 173.99 31.75) (xy 181.61 31.75)
 		)
 		(stroke
@@ -8558,13 +9214,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 85.09) (xy 66.04 85.09)
+			(xy 246.38 107.95) (xy 246.38 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb595c46-c1f3-4a3c-939a-81f71f042a35")
+		(uuid "bbee0fc7-cb93-4d9c-8150-a19bb0685ba6")
 	)
 	(wire
 		(pts
@@ -8588,13 +9244,23 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 129.54) (xy 200.66 129.54)
+			(xy 194.31 129.54) (xy 218.44 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bd1ba489-2cf0-47eb-9603-9a10d4c04758")
+	)
+	(wire
+		(pts
+			(xy 195.58 44.45) (xy 195.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be52963d-39d4-413f-b7a7-346f8a9c0ee2")
 	)
 	(wire
 		(pts
@@ -8605,6 +9271,16 @@
 			(type default)
 		)
 		(uuid "be85dc70-b82d-4d78-89eb-248304d8424b")
+	)
+	(wire
+		(pts
+			(xy 237.49 111.76) (xy 237.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb23007-8046-4593-b6c5-4aa35f2c4fd1")
 	)
 	(wire
 		(pts
@@ -8738,16 +9414,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 149.86) (xy 227.33 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c747bcdd-7ed7-476f-8126-7d37c99f6d6c")
-	)
-	(wire
-		(pts
 			(xy 104.14 120.65) (xy 110.49 120.65)
 		)
 		(stroke
@@ -8755,6 +9421,26 @@
 			(type default)
 		)
 		(uuid "c768548f-3cf4-4e14-ae81-cd79c3b76f5d")
+	)
+	(wire
+		(pts
+			(xy 69.85 90.17) (xy 64.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c818d202-70d4-4d3b-991b-363be188a44b")
+	)
+	(wire
+		(pts
+			(xy 255.27 46.99) (xy 255.27 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85fa9e3-8ebf-4788-8e65-727e6f1d5922")
 	)
 	(wire
 		(pts
@@ -8838,7 +9524,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 128.27) (xy 194.31 129.54)
+			(xy 194.31 127) (xy 194.31 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8958,6 +9644,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 83.82) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8aa1124-2cb9-4785-9fa3-9cec5336e2a6")
+	)
+	(wire
+		(pts
 			(xy 246.38 97.79) (xy 246.38 100.33)
 		)
 		(stroke
@@ -9028,7 +9724,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 31.75) (xy 205.74 31.75)
+			(xy 195.58 31.75) (xy 198.12 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9068,7 +9764,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 31.75) (xy 162.56 41.91)
+			(xy 162.56 31.75) (xy 162.56 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9128,6 +9824,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 106.68) (xy 241.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d52760-d9bc-480a-a887-c69de64c55db")
+	)
+	(wire
+		(pts
 			(xy 171.45 60.96) (xy 171.45 62.23)
 		)
 		(stroke
@@ -9158,7 +9864,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 53.34) (xy 205.74 53.34)
+			(xy 195.58 53.34) (xy 198.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9185,6 +9891,16 @@
 			(type default)
 		)
 		(uuid "ec0e7a15-1872-4698-9011-ccffc01a8da9")
+	)
+	(wire
+		(pts
+			(xy 71.12 90.17) (xy 69.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdd0b6b-7eb2-4eb2-aed4-06e4373b8974")
 	)
 	(wire
 		(pts
@@ -9228,6 +9944,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 149.86) (xy 227.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28037be-9e46-4534-a497-ad648e2309db")
+	)
+	(wire
+		(pts
 			(xy 194.31 119.38) (xy 194.31 120.65)
 		)
 		(stroke
@@ -9238,7 +9964,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 97.79) (xy 237.49 100.33)
+			(xy 237.49 97.79) (xy 237.49 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9265,6 +9991,16 @@
 			(type default)
 		)
 		(uuid "f55af395-de9b-45a0-83bd-a74dfd89ca93")
+	)
+	(wire
+		(pts
+			(xy 53.34 83.82) (xy 53.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56c2c6a-61d5-46ec-a9a7-9c8961463f53")
 	)
 	(wire
 		(pts
@@ -9588,7 +10324,7 @@
 	)
 	(global_label "B"
 		(shape input)
-		(at 220.98 55.88 0)
+		(at 228.6 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9598,7 +10334,7 @@
 		)
 		(uuid "57eaae33-e2c0-4f17-b915-776bec6c3bdd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.2352 55.88 0)
+			(at 232.8552 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +10390,7 @@
 	)
 	(global_label "Bias"
 		(shape input)
-		(at 195.58 41.91 180)
+		(at 193.04 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9664,7 +10400,7 @@
 		)
 		(uuid "78087a9c-4316-4ae6-82ef-0e3645de2bca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.5429 41.91 0)
+			(at 186.0029 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,6 +10445,28 @@
 		(uuid "89531101-1692-4185-92cc-760554d58348")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.91 139.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C"
+		(shape input)
+		(at 71.12 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b1b2c25-86f9-4245-acae-1514346e671e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.3752 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9984,7 +10742,7 @@
 	)
 	(global_label "B"
 		(shape input)
-		(at 220.98 29.21 0)
+		(at 228.6 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9994,7 +10752,7 @@
 		)
 		(uuid "e348df77-f35b-47da-95d3-5a4efdf9b203")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.2352 29.21 0)
+			(at 232.8552 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10459,6 +11217,73 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "090e860a-aa35-4ebe-8eea-0fd4206940bc")
+		(property "Reference" "#PWR021"
+			(at 255.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDB"
+			(at 252.095 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "117e6f26-323d-498e-b03a-6e32ed132383")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11064,6 +11889,82 @@
 		)
 	)
 	(symbol
+		(lib_id "DevicesTC:R_compact")
+		(at 69.85 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "165e9301-7a5d-4056-9c91-c0fb8fd412d9")
+		(property "Reference" "R43"
+			(at 71.628 85.3522 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 71.628 87.3677 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.072 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41e7c988-e664-4ca6-bd39-0f036159c4f9")
+		)
+		(pin "1"
+			(uuid "602b34af-6c2c-40f6-9544-dffe3e31dc8f")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 162.56 143.51 0)
 		(mirror y)
@@ -11647,6 +12548,80 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:R_compact")
+		(at 201.93 53.34 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c09e6a6-7ed0-443d-9bc4-6cd796c3ab0c")
+		(property "Reference" "R32"
+			(at 201.93 57.8873 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 201.93 55.8718 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b48cb0a-22bf-401c-a667-888697252726")
+		)
+		(pin "1"
+			(uuid "26c4cbc6-fd63-4312-96d7-9d983ccfdf69")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:R_compact")
 		(at 41.91 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11710,6 +12685,85 @@
 			(project ""
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST")
+		(at 220.98 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e529c1b-e7b0-45dc-943b-d2961b9f3851")
+		(property "Reference" "SW2"
+			(at 220.98 138.43 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "SW_DPST"
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa28558d-9ef6-4a57-ad73-3c4064edd64f")
+		)
+		(pin "4"
+			(uuid "f908838c-a31a-4a81-8f7b-9e95ed45b96a")
+		)
+		(pin "1"
+			(uuid "219b1e87-efa5-4b4e-90d5-c675a560b7c1")
+		)
+		(pin "3"
+			(uuid "b755b5d2-79d9-4dd1-b94a-8856f6082f99")
+		)
+		(instances
+			(project ""
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -13205,6 +14259,80 @@
 		)
 	)
 	(symbol
+		(lib_id "DevicesTC:R_compact")
+		(at 255.27 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56cae286-b2c5-4d4f-bb4c-987a57fc50b7")
+		(property "Reference" "R44"
+			(at 250.7227 43.18 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 252.7382 43.18 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 253.492 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 255.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c98ac112-2b66-466e-bd88-79116bfb6502")
+		)
+		(pin "1"
+			(uuid "c03befcc-a185-4951-9c47-76359e36e5bc")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DevicesTC:C_compact")
 		(at 154.94 31.75 270)
 		(unit 1)
@@ -13481,7 +14609,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 107.95 0)
+		(at 246.38 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13490,7 +14618,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f0419dc-ec2f-4d0c-b969-0fa2a3a12561")
 		(property "Reference" "#PWR028"
-			(at 246.38 114.3 0)
+			(at 246.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13499,7 +14627,7 @@
 			)
 		)
 		(property "Value" "GNDbias"
-			(at 246.38 112.0831 0)
+			(at 246.38 123.5131 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13507,7 +14635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 107.95 0)
+			(at 246.38 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13516,7 +14644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 107.95 0)
+			(at 246.38 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13525,7 +14653,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 107.95 0)
+			(at 246.38 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13610,74 +14738,6 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 220.98 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6527c812-a82c-4e54-be01-a879e6f9c36c")
-		(property "Reference" "SW1"
-			(at 220.98 136.4445 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "SW_DPST"
-			(at 220.98 138.8688 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 220.98 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7877a8ba-ed63-4c16-9bb2-c5b4a7cb70d6")
-		)
-		(pin "1"
-			(uuid "550a24c2-0c09-426e-85b8-664664297958")
-		)
-		(instances
-			(project ""
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -15418,35 +16478,41 @@
 		)
 	)
 	(symbol
-		(lib_id "DevicesTC:R_compact")
-		(at 237.49 104.14 0)
+		(lib_id "DevicesTC:D_Compact")
+		(at 245.11 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8920746d-8c3d-49cc-ba7f-9ff1bad0010a")
-		(property "Reference" "R35"
-			(at 239.268 103.1322 0)
+		(uuid "8907ba91-7478-4a84-b90e-3d93dc656dd6")
+		(property "Reference" "D6"
+			(at 246.1178 68.072 90)
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "27k"
-			(at 239.268 105.1477 0)
+		(property "Value" "UF4007"
+			(at 244.1023 68.072 90)
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 235.712 104.14 90)
+			(at 245.11 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15455,7 +16521,101 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 104.14 0)
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef86e0e4-adb4-43f0-bf4b-2c71ce352245")
+		)
+		(pin "2"
+			(uuid "d5740975-bdea-4ccf-98dd-ebaf1c652295")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:R_compact")
+		(at 237.49 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8920746d-8c3d-49cc-ba7f-9ff1bad0010a")
+		(property "Reference" "R35"
+			(at 239.268 114.5622 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 239.268 116.5777 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 235.712 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15464,7 +16624,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 237.49 104.14 0)
+			(at 237.49 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15698,6 +16858,179 @@
 		)
 	)
 	(symbol
+		(lib_id "DevicesTC:R_Potentiometer_Compact")
+		(at 237.49 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "911a6396-41c3-407c-938c-3923c0f0dcfc")
+		(property "Reference" "RV7"
+			(at 235.712 105.6722 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22k Lin"
+			(at 235.712 107.6877 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4efb5173-cfd2-4257-8e12-b75b85b9027c")
+		)
+		(pin "3"
+			(uuid "a9fa6ba5-3621-4e10-8494-c3632c23a851")
+		)
+		(pin "2"
+			(uuid "0b674f37-a391-4dde-8285-faae7a0821b7")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "RV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:D_Compact")
+		(at 237.49 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9173ce9d-e344-4e98-9972-64994650d1a2")
+		(property "Reference" "D5"
+			(at 238.4978 68.072 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "UF4007"
+			(at 236.4823 68.072 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ef5676e-2b3c-4f96-9319-def0defa67a2")
+		)
+		(pin "2"
+			(uuid "3fce5e51-805d-4613-aaa7-d416e5db446e")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Valve:ECC83")
 		(at 106.68 109.22 0)
 		(unit 2)
@@ -15790,7 +17123,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 71.12 85.09 0)
+		(at 76.2 82.55 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15799,7 +17132,7 @@
 		(dnp no)
 		(uuid "92099907-dfa5-4b2a-b7e9-94829a167ec0")
 		(property "Reference" "J3"
-			(at 74.93 86.0669 0)
+			(at 80.01 83.5269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15808,7 +17141,7 @@
 			)
 		)
 		(property "Value" "RCA"
-			(at 74.93 83.5269 0)
+			(at 80.01 80.9869 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15817,7 +17150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 85.09 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15826,7 +17159,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 85.09 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15835,7 +17168,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 71.12 85.09 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15926,6 +17259,156 @@
 			(project ""
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:R_compact")
+		(at 162.56 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "947d5b28-a734-47be-9b5e-60725a6fbf0c")
+		(property "Reference" "R45"
+			(at 164.338 35.8222 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470k"
+			(at 164.338 37.8377 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.338 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8049074-eea1-4901-ada9-7529550345df")
+		)
+		(pin "1"
+			(uuid "e279a13e-8bfa-4193-b29a-89907cf4a779")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:R_compact")
+		(at 224.79 55.88 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9987894e-086a-4b00-9ee5-535b9675b8fb")
+		(property "Reference" "R38"
+			(at 224.79 60.4273 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "470r"
+			(at 224.79 58.4118 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 224.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "710fa12a-2927-4449-b038-f73de27e43ec")
+		)
+		(pin "1"
+			(uuid "bf55d4bf-a86c-444d-9ea5-598ae7ccffbf")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -16139,6 +17622,80 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:C_compact")
+		(at 48.26 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d6c6b39-1375-460e-8ca9-ceb9e8cc521c")
+		(property "Reference" "C16"
+			(at 42.5697 87.63 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "100p 2kV"
+			(at 44.5852 87.63 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 47.2948 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 48.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c4ddc24-bb0b-4441-8e57-119414c481a0")
+		)
+		(pin "1"
+			(uuid "4b1126c9-9665-48ca-aa57-ee5c9119562b")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -16633,6 +18190,80 @@
 		)
 	)
 	(symbol
+		(lib_id "DevicesTC:C_compact")
+		(at 66.04 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aab40de8-9187-4d5b-969a-3353658688de")
+		(property "Reference" "C27"
+			(at 66.04 122.5303 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "330n 500V"
+			(at 66.04 120.5148 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 117.8052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ba0ea66-c900-431b-9004-f32fcc22e146")
+		)
+		(pin "1"
+			(uuid "625fdda1-48b9-4b17-9b35-0180d96ca576")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 45.72 0)
 		(unit 1)
@@ -16904,6 +18535,80 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:R_compact")
+		(at 201.93 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1c7b9af-6a04-4ddd-ba93-54adf591fb29")
+		(property "Reference" "R25"
+			(at 201.93 27.2027 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 201.93 29.2182 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 29.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42000cf7-e394-4139-bf86-f188511bf2d4")
+		)
+		(pin "1"
+			(uuid "75cb55ba-b33c-46b2-aafc-584b67e7790c")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:R_compact")
 		(at 54.61 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17037,6 +18742,100 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:D_Compact")
+		(at 245.11 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5d0915e-4835-4b07-85b9-798256d461a1")
+		(property "Reference" "D4"
+			(at 246.1178 21.082 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "UF4007"
+			(at 244.1023 21.082 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 245.11 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 245.11 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed60cdd4-da46-461a-9e11-6ef0e41bc8cd")
+		)
+		(pin "2"
+			(uuid "b99bf2b7-7abf-495c-9347-5872bf8e37c3")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -17587,6 +19386,90 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 194.31 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c33a66db-53c4-4f70-a762-209dac442868")
+		(property "Reference" "D2"
+			(at 195.58 123.19 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 195.58 124.46 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cf7f66a-979d-4cda-9592-74d6c987242b")
+		)
+		(pin "2"
+			(uuid "9426cb0f-e64d-4637-9b34-04d84027f919")
+		)
+		(instances
+			(project ""
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -18273,6 +20156,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 195.58 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0d1a854-e355-4356-89cd-30ccf2494faa")
+		(property "Reference" "RV9"
+			(at 200.025 41.91 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "22k Lin"
+			(at 198.12 41.91 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 195.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b746225-7ef0-441a-be35-e6ea12e7b01d")
+		)
+		(pin "2"
+			(uuid "3418d285-9298-46a6-b79f-048a2c01af96")
+		)
+		(pin "3"
+			(uuid "b4feebf0-cf38-40bd-b604-e2a521b5886e")
+		)
+		(instances
+			(project ""
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "RV9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 87.63 0)
 		(unit 1)
@@ -18783,15 +20742,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 90.17 90)
+		(at 248.92 19.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dd7259fa-e1d9-4e69-9304-6ae8e5f8e9e8")
-		(property "Reference" "#PWR04"
-			(at 71.12 90.17 0)
+		(fields_autoplaced yes)
+		(uuid "dcfaf502-0ee5-4395-b428-887a39692407")
+		(property "Reference" "#PWR024"
+			(at 255.27 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18799,8 +20759,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 68.58 90.1699 90)
+		(property "Value" "GNDB"
+			(at 252.095 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18809,7 +20769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 90.17 0)
+			(at 248.92 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18818,7 +20778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 90.17 0)
+			(at 248.92 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18827,7 +20787,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 90.17 0)
+			(at 248.92 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "287e35d5-7dc4-4bf5-8979-e6dfb140017f")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd7259fa-e1d9-4e69-9304-6ae8e5f8e9e8")
+		(property "Reference" "#PWR04"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 74.93 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18842,6 +20868,100 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:D_Compact")
+		(at 237.49 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de5af0ec-1198-462b-bf86-f48d0e4c2e63")
+		(property "Reference" "D3"
+			(at 238.4978 21.082 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "UF4007"
+			(at 236.4823 21.082 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 237.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ace5b77-6850-418b-8ee8-0c1e45ad7df9")
+		)
+		(pin "2"
+			(uuid "41e3c225-e047-489b-8776-20403be2e73a")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -18981,76 +21101,6 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DevicesTC:C_compact")
-		(at 200.66 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e500a2c0-c0a7-4338-a270-15fb84e27f10")
-		(property "Reference" "C16"
-			(at 203.581 123.4522 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "25u 50V"
-			(at 203.581 125.4677 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.6252 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96baf7b7-d81c-4ff1-9c05-25eb0c9ca2a6")
-		)
-		(pin "1"
-			(uuid "a9009638-e5c4-441b-9f42-b65766428522")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -19262,76 +21312,6 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DevicesTC:R_compact")
-		(at 194.31 124.46 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ecabeaef-3d33-4dc6-866a-e2e1b7e73f50")
-		(property "Reference" "R25"
-			(at 192.532 123.4522 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 192.532 125.4677 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 192.532 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 194.31 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f774bb4e-a085-4f78-a9b4-3bb6aeb7d364")
-		)
-		(pin "1"
-			(uuid "14260a94-6a3f-4ffa-b56f-aa798a9ddde5")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -19683,6 +21663,80 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:R_compact")
+		(at 224.79 29.21 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8c2438c-4593-4f9d-a36a-ef8001e7e75b")
+		(property "Reference" "R36"
+			(at 224.79 33.7573 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "470r"
+			(at 224.79 31.7418 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 224.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2bbc54e-a480-4ce6-b9f9-ded2865c8449")
+		)
+		(pin "1"
+			(uuid "23d51277-c2aa-473f-acee-e1d9efec4c51")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "R36")
 					(unit 1)
 				)
 			)
