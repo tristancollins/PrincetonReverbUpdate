@@ -10557,6 +10557,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -10566,6 +10569,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -11580,6 +11586,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -11588,6 +11597,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -11923,6 +11935,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -11932,6 +11947,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -13970,6 +13988,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -13979,6 +14000,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -17304,6 +17328,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -17312,6 +17339,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -19041,6 +19071,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -19049,6 +19082,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -19385,6 +19421,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -19394,6 +19433,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify right)
 			)
