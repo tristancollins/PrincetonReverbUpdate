@@ -6175,6 +6175,7 @@
 		(at 259.08 138.43 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
 			)
@@ -6269,6 +6270,7 @@
 		(at 38.1 90.17 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
 			)
@@ -6281,6 +6283,7 @@
 		(at 196.85 73.66 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
 			)
@@ -6337,6 +6340,7 @@
 		(at 198.12 127 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
 			)
@@ -6403,6 +6407,7 @@
 		(at 17.78 135.89 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
 			)
@@ -6436,6 +6441,7 @@
 		(at 78.105 74.295 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
 			)
@@ -6472,6 +6478,7 @@
 		(at 179.07 58.42 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
 			)
@@ -6506,6 +6513,7 @@
 		(at 200.66 44.45 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
 			)
@@ -6533,6 +6541,7 @@
 			(font
 				(size 1.016 1.016)
 				(italic yes)
+				(color 72 72 72 1)
 			)
 			(justify left)
 		)
@@ -6556,6 +6565,7 @@
 			(font
 				(size 1.016 1.016)
 				(italic yes)
+				(color 72 72 72 1)
 			)
 			(justify left)
 		)
@@ -6579,6 +6589,7 @@
 		(at 214.63 135.89 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
 			)
@@ -6716,6 +6727,7 @@
 		(at 58.42 22.86 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
 			)
@@ -6793,6 +6805,7 @@
 		(at 69.85 120.65 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.016 1.016)
 				(italic yes)
 			)
@@ -16628,7 +16641,7 @@
 				)
 			)
 		)
-		(property "Value" "Transformer_SP_1S"
+		(property "Value" "Modulus OT"
 			(at 243.84 50.8 0)
 			(effects
 				(font
@@ -16704,7 +16717,7 @@
 				)
 			)
 		)
-		(property "Value" "Transformer_1P_3S"
+		(property "Value" "Modulus PT"
 			(at 238.252 129.1703 0)
 			(effects
 				(font
@@ -17855,7 +17868,7 @@
 				)
 			)
 		)
-		(property "Value" "Transformer_1P_1S_small"
+		(property "Value" "Modulus RT"
 			(at 61.468 89.916 0)
 			(effects
 				(font
