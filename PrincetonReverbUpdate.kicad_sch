@@ -6172,7 +6172,7 @@
 	)
 	(text "Protection Diodes"
 		(exclude_from_sim no)
-		(at 259.08 138.43 0)
+		(at 257.81 139.065 0)
 		(effects
 			(font
 				(face "Arial")
@@ -6304,7 +6304,7 @@
 	)
 	(text "Yellow"
 		(exclude_from_sim no)
-		(at 247.65 133.35 0)
+		(at 246.38 133.35 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6350,7 +6350,7 @@
 	)
 	(text "Yellow"
 		(exclude_from_sim no)
-		(at 247.65 135.89 0)
+		(at 246.38 135.89 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6938,6 +6938,12 @@
 		(uuid "34df33e0-3a01-493a-abe5-587c8d3f9081")
 	)
 	(junction
+		(at 251.46 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "409ab50e-0b14-491d-9860-baba67164c43")
+	)
+	(junction
 		(at 104.14 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7122,12 +7128,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "940c6690-bbc8-418d-8881-200958951075")
-	)
-	(junction
-		(at 259.08 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94978944-c213-49de-a7d8-1796d495304b")
 	)
 	(junction
 		(at 96.52 189.23)
@@ -8431,16 +8431,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 139.7) (xy 259.08 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e4490d4-3f94-4177-97f7-90e8a6d76615")
-	)
-	(wire
-		(pts
 			(xy 54.61 114.3) (xy 54.61 118.11)
 		)
 		(stroke
@@ -8768,6 +8758,16 @@
 			(type default)
 		)
 		(uuid "6eba3c10-1c34-4458-87a7-36e1bc75bd16")
+	)
+	(wire
+		(pts
+			(xy 251.46 135.255) (xy 251.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7205d3bd-7dcd-4954-aa49-3358d761b64e")
 	)
 	(wire
 		(pts
@@ -9508,6 +9508,16 @@
 			(type default)
 		)
 		(uuid "b0954faf-9631-4cd4-aa27-607d1e10248a")
+	)
+	(wire
+		(pts
+			(xy 259.08 127) (xy 259.08 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29f6389-f231-4c81-8672-ea0ff7371bc1")
 	)
 	(wire
 		(pts
@@ -10338,6 +10348,16 @@
 			(type default)
 		)
 		(uuid "ef993751-e58e-4916-b775-3b3e6cf5840f")
+	)
+	(wire
+		(pts
+			(xy 259.08 135.255) (xy 251.46 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd178e8-d79f-4270-ab6d-7eed4fecf71c")
 	)
 	(wire
 		(pts
