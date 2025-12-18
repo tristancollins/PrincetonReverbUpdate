@@ -6800,19 +6800,6 @@
 		)
 		(uuid "f911f3d1-9568-4856-9309-2be1bf871c97")
 	)
-	(text "Ultrapath cap\nto reduce PSRR"
-		(exclude_from_sim no)
-		(at 69.85 120.65 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.016 1.016)
-				(italic yes)
-			)
-			(justify left)
-		)
-		(uuid "faa14fd0-7db0-4a53-8f8f-90ccca9d88a4")
-	)
 	(text "~350VDC"
 		(exclude_from_sim no)
 		(at 60.96 147.32 0)
@@ -7280,12 +7267,6 @@
 		(uuid "c7c041ec-ca28-4b9e-b4c9-243d930cc518")
 	)
 	(junction
-		(at 59.69 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca04ec3a-c940-410b-a204-4147b042aeb1")
-	)
-	(junction
 		(at 218.44 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7691,16 +7672,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 114.3) (xy 71.12 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1676b3d7-00d4-46f3-bf3f-98cc3a1cf101")
-	)
-	(wire
-		(pts
 			(xy 99.06 16.51) (xy 99.06 17.78)
 		)
 		(stroke
@@ -8018,16 +7989,6 @@
 			(type default)
 		)
 		(uuid "2ce9ef71-1eef-41db-9660-9b3cd8dcba91")
-	)
-	(wire
-		(pts
-			(xy 59.69 114.3) (xy 62.23 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "321c5650-acc5-4305-b1b8-5d58af44f743")
 	)
 	(wire
 		(pts
@@ -10912,28 +10873,6 @@
 		(uuid "89531101-1692-4185-92cc-760554d58348")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.91 139.2548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C"
-		(shape input)
-		(at 71.12 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8b1b2c25-86f9-4245-acae-1514346e671e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.3752 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18641,80 +18580,6 @@
 			(project ""
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DevicesTC:C_compact")
-		(at 66.04 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aab40de8-9187-4d5b-969a-3353658688de")
-		(property "Reference" "C27"
-			(at 66.04 119.9903 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(property "Value" "330n 500V"
-			(at 66.04 117.9748 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 115.2652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 66.04 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ba0ea66-c900-431b-9004-f32fcc22e146")
-		)
-		(pin "1"
-			(uuid "625fdda1-48b9-4b17-9b35-0180d96ca576")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "C27")
 					(unit 1)
 				)
 			)
