@@ -2537,6 +2537,153 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DevicesTC:FETboost"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J8"
+				(at 0 7.366 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "FET boost module"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FET Boost Module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FETboost_0_1"
+				(rectangle
+					(start -10.16 0)
+					(end -8.89 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -8.89 3.81)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "FETboost_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "B+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "Signal"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DevicesTC:R_Potentiometer_Compact"
 			(pin_names
 				(offset 1.016)
@@ -6599,7 +6746,7 @@
 	)
 	(text "2"
 		(exclude_from_sim no)
-		(at 21.59 34.29 0)
+		(at 15.875 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7225,12 +7372,6 @@
 		(uuid "badd9b5e-1519-4d5f-95c2-b53933464bfe")
 	)
 	(junction
-		(at 36.83 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb882b2e-0c59-481c-bf06-a375fc4455cc")
-	)
-	(junction
 		(at 82.55 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7375,10 +7516,6 @@
 	(no_connect
 		(at 266.7 30.48)
 		(uuid "3004b371-4321-4341-85e2-76f510d4a549")
-	)
-	(no_connect
-		(at 27.94 40.64)
-		(uuid "593073bc-6000-477c-b4df-59cf264d7945")
 	)
 	(no_connect
 		(at 261.62 25.4)
@@ -7642,7 +7779,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 40.64) (xy 41.91 41.91)
+			(xy 41.91 33.02) (xy 41.91 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8872,16 +9009,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 35.56) (xy 36.83 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed67561-b23d-403f-9a53-7c9152833bd3")
-	)
-	(wire
-		(pts
 			(xy 80.01 189.23) (xy 60.96 189.23)
 		)
 		(stroke
@@ -8899,16 +9026,6 @@
 			(type default)
 		)
 		(uuid "8087f183-84ef-4666-883b-74884585d222")
-	)
-	(wire
-		(pts
-			(xy 33.02 35.56) (xy 36.83 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f44938-1511-47c5-a5f8-4c8a9e51cfc5")
 	)
 	(wire
 		(pts
@@ -9172,7 +9289,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 57.15) (xy 36.83 57.15)
+			(xy 33.02 57.15) (xy 41.91 57.15)
 		)
 		(stroke
 			(width 0)
@@ -10292,16 +10409,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 57.15) (xy 36.83 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf56701-da31-43e2-b689-f5c6e2add672")
-	)
-	(wire
-		(pts
 			(xy 104.14 127) (xy 110.49 127)
 		)
 		(stroke
@@ -10873,6 +10980,28 @@
 		(uuid "89531101-1692-4185-92cc-760554d58348")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.91 139.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "E"
+		(shape input)
+		(at 33.02 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "9087cb3e-6c2c-4e5a-9bb6-6ab66dafa75b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.3271 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12448,7 +12577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DevicesTC:AudioJack2_Ground_SwitchT_TC")
+		(lib_id "DevicesTC:FETboost")
 		(at 27.94 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12458,15 +12587,15 @@
 		(fields_autoplaced yes)
 		(uuid "21c4ddbe-e294-4aea-9902-641918b06569")
 		(property "Reference" "J1"
-			(at 27.305 25.0655 0)
+			(at 24.13 25.6787 0)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Value" "Switchcraft L12A"
-			(at 27.305 27.4898 0)
+		(property "Value" "FET boost module"
+			(at 24.13 27.6942 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12491,7 +12620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched T Pole (Normalling)"
+		(property "Description" "FET Boost Module"
 			(at 27.94 33.02 0)
 			(effects
 				(font
@@ -12500,17 +12629,14 @@
 				(hide yes)
 			)
 		)
-		(pin "G"
+		(pin "1"
 			(uuid "6b2144a5-883d-454c-b206-9a2f3f96ee85")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "fd2c6510-0d25-433b-9344-6fa1848fa513")
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "a5de7171-3837-4475-9642-07776a8694a2")
-		)
-		(pin "TN"
-			(uuid "91965261-0511-4ca1-8233-c3bc3e7bbb32")
 		)
 		(instances
 			(project "PrincetonReverbUpdate"
@@ -13026,76 +13152,6 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DevicesTC:R_compact")
-		(at 41.91 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c1f83dd-b6af-44f5-885b-a60e743a5e19")
-		(property "Reference" "R1"
-			(at 43.688 35.8222 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68k"
-			(at 43.688 37.8377 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.132 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 41.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7bc33bde-5a7d-4993-b59c-743b1f9ea65d")
-		)
-		(pin "1"
-			(uuid "b68b3e57-0bd8-4cdc-80a8-5241aac235f2")
-		)
-		(instances
-			(project ""
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -19225,12 +19281,12 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 35.56 53.34 0)
+			(at 36.195 54.61 90)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -19560,7 +19616,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 30.48 90)
+		(at 33.02 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19569,7 +19625,7 @@
 		(fields_autoplaced yes)
 		(uuid "c155f53c-2ca4-423d-9216-1a7d0055757a")
 		(property "Reference" "#PWR035"
-			(at 39.37 30.48 0)
+			(at 39.37 35.56 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -19578,7 +19634,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 36.195 30.48 90)
+			(at 36.195 35.56 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -19587,7 +19643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 30.48 0)
+			(at 33.02 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19596,7 +19652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 30.48 0)
+			(at 33.02 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19605,7 +19661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 30.48 0)
+			(at 33.02 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21514,15 +21570,21 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "10k"
 			(at 43.688 47.9977 0)
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify left)
 			)
