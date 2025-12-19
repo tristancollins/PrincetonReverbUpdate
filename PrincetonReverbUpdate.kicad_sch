@@ -6330,6 +6330,18 @@
 		)
 		(uuid "0bddcab8-d821-44b6-b69e-87fd9b566bb0")
 	)
+	(text "Optional\nTo remove hiss"
+		(exclude_from_sim no)
+		(at 94.615 84.455 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(italic yes)
+			)
+		)
+		(uuid "0e8761ab-8114-434b-a0fe-b685332d09f8")
+	)
 	(text "Treble"
 		(exclude_from_sim no)
 		(at 82.55 33.02 0)
@@ -6657,7 +6669,7 @@
 	)
 	(text "Valve\nbalance"
 		(exclude_from_sim no)
-		(at 200.66 44.45 0)
+		(at 201.295 43.18 0)
 		(effects
 			(font
 				(face "Arial")
@@ -7268,6 +7280,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95fe8d62-b245-46aa-b188-5efbea4e6d6a")
+	)
+	(junction
+		(at 106.68 84.455)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9612462f-0564-4430-b10e-24fac67a4895")
 	)
 	(junction
 		(at 140.97 31.75)
@@ -8129,6 +8147,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 84.455) (xy 106.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301ff485-ba29-40b9-becd-0a0c371c0075")
+	)
+	(wire
+		(pts
 			(xy 130.81 111.76) (xy 130.81 110.49)
 		)
 		(stroke
@@ -8369,6 +8397,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 93.345) (xy 101.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431a9c52-0de9-4d96-9a84-fec4936800da")
+	)
+	(wire
+		(pts
 			(xy 255.27 77.47) (xy 260.35 77.47)
 		)
 		(stroke
@@ -8566,6 +8604,16 @@
 			(type default)
 		)
 		(uuid "56ca2e37-c692-42ba-a0d9-c6e8e350579a")
+	)
+	(wire
+		(pts
+			(xy 101.6 84.455) (xy 106.68 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a262a5-8aa2-4642-a59f-c180b1e6c3f4")
 	)
 	(wire
 		(pts
@@ -9209,6 +9257,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 85.725) (xy 101.6 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf4332b-2b89-4d82-ae3f-1f68c0ec2bd3")
+	)
+	(wire
+		(pts
 			(xy 41.91 157.48) (xy 57.15 157.48)
 		)
 		(stroke
@@ -9339,7 +9397,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 83.82) (xy 106.68 85.09)
+			(xy 106.68 83.82) (xy 106.68 84.455)
 		)
 		(stroke
 			(width 0)
@@ -9629,6 +9687,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 95.25) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e6b108-370c-44c3-add4-b3e302b3f13b")
+	)
+	(wire
+		(pts
 			(xy 167.64 109.22) (xy 168.91 109.22)
 		)
 		(stroke
@@ -9749,7 +9817,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 44.45) (xy 195.58 45.72)
+			(xy 195.58 45.085) (xy 195.58 45.72)
 		)
 		(stroke
 			(width 0)
@@ -10156,6 +10224,16 @@
 			(type default)
 		)
 		(uuid "d9b8a75f-8cde-47bd-861c-d94c83ca0a50")
+	)
+	(wire
+		(pts
+			(xy 195.58 40.005) (xy 195.58 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3eed9d-76e8-4378-8204-74413e657257")
 	)
 	(wire
 		(pts
@@ -10925,7 +11003,7 @@
 	)
 	(global_label "Bias"
 		(shape input)
-		(at 193.04 41.91 180)
+		(at 193.04 42.545 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10935,7 +11013,7 @@
 		)
 		(uuid "78087a9c-4316-4ae6-82ef-0e3645de2bca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.0029 41.91 0)
+			(at 186.0029 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12591,6 +12669,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -12599,6 +12680,9 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -13324,6 +13408,80 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:C_compact")
+		(at 101.6 89.535 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f4cdebc-2333-49ed-9f9a-d3340a77199b")
+		(property "Reference" "C27"
+			(at 95.9097 89.535 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "100-470p"
+			(at 97.9252 89.535 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.6348 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bff7dad-d46a-4a51-b524-49a7086ffba6")
+		)
+		(pin "1"
+			(uuid "73e00226-62ca-4c30-9759-b709972dce82")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -20626,7 +20784,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
-		(at 195.58 41.91 180)
+		(at 195.58 42.545 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20634,7 +20792,7 @@
 		(dnp no)
 		(uuid "d0d1a854-e355-4356-89cd-30ccf2494faa")
 		(property "Reference" "RV9"
-			(at 200.025 41.91 90)
+			(at 200.025 42.545 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -20645,7 +20803,7 @@
 			)
 		)
 		(property "Value" "22k Lin"
-			(at 198.12 41.91 90)
+			(at 198.12 42.545 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -20656,7 +20814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 41.91 0)
+			(at 195.58 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20665,7 +20823,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 41.91 0)
+			(at 195.58 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20674,7 +20832,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 195.58 41.91 0)
+			(at 195.58 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
