@@ -21011,7 +21011,7 @@
 				)
 			)
 		)
-		(property "Value" "1M A"
+		(property "Value" "1M Log"
 			(at 85.598 41.91 90)
 			(effects
 				(font
@@ -21448,15 +21448,21 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify right)
 			)
 		)
-		(property "Value" "100k Lin"
+		(property "Value" "100k Log"
 			(at 120.1421 112.7677 0)
 			(effects
 				(font
 					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 				(justify right)
 			)
