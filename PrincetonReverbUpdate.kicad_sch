@@ -12864,7 +12864,7 @@
 	)
 	(text "420VDC"
 		(exclude_from_sim no)
-		(at 276.86 124.46 0)
+		(at 278.638 124.46 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -18362,28 +18362,27 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 265.43 134.62 90)
-		(fields_autoplaced yes)
+		(at 265.43 134.62 270)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "968da5a5-bf6d-4785-9cc4-0a4a2736d3c6")
 		(property "Net Class" "HV"
-			(at 264.16 133.9596 90)
+			(at 270.002 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Component Class" ""
-			(at 121.92 -8.89 0)
+			(at 408.94 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20526,7 +20525,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "10k"
 			(at 201.93 55.8718 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20796,7 +20795,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2f4cdebc-2333-49ed-9f9a-d3340a77199b")
 		(property "Reference" "C27"
@@ -21139,6 +21138,7 @@
 		)
 		(property "Value" "BToCapCanB"
 			(at 72.39 146.812 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22362,6 +22362,7 @@
 		)
 		(property "Value" "GNDToCapCan"
 			(at 72.39 156.464 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24718,6 +24719,7 @@
 		)
 		(property "Value" "ACBiasIn"
 			(at 264.668 129.54 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27568,7 +27570,7 @@
 				)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "1Meg"
 			(at 162.56 40.005 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29773,7 +29775,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "10k"
 			(at 201.93 29.2182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32903,6 +32905,7 @@
 		)
 		(property "Value" "Spk GND"
 			(at 258.572 49.276 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33883,6 +33886,7 @@
 		)
 		(property "Value" "A'ToCapCanC"
 			(at 197.358 88.392 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34125,6 +34129,7 @@
 		)
 		(property "Value" "AToCapCanA"
 			(at 88.138 146.812 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
