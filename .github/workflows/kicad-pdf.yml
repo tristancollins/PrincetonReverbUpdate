@@ -7,6 +7,7 @@ on:
       - mods-pcb
       - fab
       - fab_updates
+      - updates
   pull_request:
 jobs:
   generate-schematic-pdf:
