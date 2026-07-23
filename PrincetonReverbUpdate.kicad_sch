@@ -12932,7 +12932,7 @@
 	)
 	(text "Isolated from Chassis\nwith shoulder washers"
 		(exclude_from_sim no)
-		(at 269.24 54.864 0)
+		(at 266.7 56.388 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -13189,7 +13189,7 @@
 		)
 		(uuid "ba8252be-2496-490c-b678-117ce81412e9")
 	)
-	(text "~-41VDC"
+	(text "~-40VDC"
 		(exclude_from_sim no)
 		(at 233.172 85.344 0)
 		(effects
@@ -23726,7 +23726,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k 1W"
+		(property "Value" "82k 1W"
 			(at 266.954 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
